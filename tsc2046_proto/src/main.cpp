@@ -25,7 +25,8 @@ void setup() {
 }
 
 void loop() {
-  byte dataToSend = 0b10111001;  // Example byte to send
+  // ------------------- REQUESTING Y-POSITION --------------------------------------
+  byte request_Y = 0b10010001;  // Example byte to send
   byte receivedData = 0x11;  // Byte to receive
     
   // Select the SPI device (pull CS low)
@@ -33,18 +34,39 @@ void loop() {
   // delay(10);
 
   // Send and receive data via SPI
-  SPI.transfer(dataToSend);
-  delay(10);
-  receivedData = SPI.transfer(0);
+  SPI.transfer(request_Y);
+  byte byte1 = SPI.transfer(0);
+  byte byte2 = SPI.transfer(0);
   
   // Deselect the SPI device (pull CS high)
   digitalWrite(PIN_NUM_CS, HIGH);
-  
-  // Print the received data
-  // Serial.print("Sent Data: 0x");
-  // Serial.print(dataToSend, HEX);
-  // Serial.print(" | Received Data: 0x");
-  Serial.println(receivedData);
+  // Serial.println(byte1);
+  // Serial.println(byte2);
 
-  delay(100); 
+  int y_position = (byte1 << 4) | (byte2 >> 4);
+
+  // ------------------- REQUESTING X-POSITION --------------------------------------
+
+  byte request_X = 0b11010001;  // Example byte to send
+  // Select the SPI device (pull CS low)
+  digitalWrite(PIN_NUM_CS, LOW);
+  // delay(10);
+
+  // Send and receive data via SPI
+  SPI.transfer(request_Y);
+  byte1 = SPI.transfer(0);
+  byte2 = SPI.transfer(0);
+  
+  // Deselect the SPI device (pull CS high)
+  digitalWrite(PIN_NUM_CS, HIGH);
+  // Serial.println(byte1);
+  // Serial.println(byte2);
+
+  int x_position = (byte1 << 4) | (byte2 >> 4);
+
+  Serial.print(x_position);
+  Serial.print(", ");
+  Serial.println(y_position);
+
+  delay(10); 
 }
