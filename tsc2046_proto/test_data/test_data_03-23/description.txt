@@ -1,0 +1,7 @@
+diagonal_lines.csv  Used apple pen to draw diagonal lines across touch screen
+
+writing_hi_corners_processing_1.csv 
+Alternate between x and y, taking 3 consecutive samples of each and printing the average of them. Delay of 1 in between every sample.
+
+alphabet_processing_1.csv 
+Wrote the alphabet in large text across entire overlay.Alternate between x and y, taking 3 consecutive samples of each and printing the average of them. Delay of 1 in between every sample.

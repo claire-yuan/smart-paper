@@ -1,3 +1,5 @@
+""" Python script to visualize the printed data from TSC2046 serial output. """
+
 from PIL import Image
 
 # Function to read the file and return coordinates
@@ -17,19 +19,19 @@ def create_grid(coordinates):
     
     # Mark the specified coordinates as black
     for x, y in coordinates:
-        img.putpixel((x, y), (0, 0, 0))  # Set the pixel to black
+        img.putpixel((x, (2047-y)), (0, 0, 0))  # Set the pixel to black
 
         # Set the surrounding pixels too
-        pen_width = 5;
+        pen_width = 2;
         for i in range(-pen_width, pen_width):
             for j in range (-pen_width, pen_width):
-                if 0 <= x+i <= 2047 and 0 <= y+j <= 2047:
-                    img.putpixel((x+i, y+j), (0, 0, 0))  # Set the pixel to black
+                if 0 <= x+i <= 2047 and 0 <= (2047-y)+j <= 2047:
+                    img.putpixel((x+i, (2047-y)+j), (0, 0, 0))  # Set the pixel to black
 
     return img
 
 # Path to your input file
-file_path = 'writing_hi_corners.csv'
+file_path = 'test_data_03-23/full_screen_test_1.csv'
 
 # Read the coordinates from the file
 coordinates = read_coordinates(file_path)

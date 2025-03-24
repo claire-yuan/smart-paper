@@ -6,6 +6,32 @@
 #define PIN_NUM_CLK 6
 #define PIN_NUM_CS 10
 
+//
+const bool MAP_POSITION_VALUES = false;
+
+// SETTINGS FOR TSC2046 SAMPLING
+const int TOUCH_N_SAMPLES = 3;
+const int TOUCH_SAMPLE_DELAY = 1; // ms
+
+// Function declarations
+int get_X_position();
+int get_Y_position();
+
+// TOUCH OVERLAY ORIGINAL COORDINATES BEFORE MAPPING
+int BL_X = 790;
+int BL_Y = 790;
+
+int BR_X = 1190;
+int BR_Y = 650;
+
+int TL_X = 580;
+int TL_Y = 1300;
+
+int TR_X = 1410;
+int TR_Y = 1430;
+
+
+
 void setup() {
   // Start serial communication for debugging
   Serial.begin(115200);
@@ -25,48 +51,61 @@ void setup() {
 }
 
 void loop() {
-  // ------------------- REQUESTING Y-POSITION --------------------------------------
-  byte request_Y = 0b10010001;  // Example byte to send
-  byte receivedData = 0x11;  // Byte to receive
+  int x_pos = get_X_position();
+  int y_pos = get_Y_position();
+  if (MAP_POSITION_VALUES == false) {
+    Serial.print(x_pos);
+    Serial.print(",");
+    Serial.println(y_pos);
+  }
+}
+
+/* Function to get X position from the TSC2046*/
+int get_X_position() {
+  // Select the SPI device (pull CS low)
+  int x_sum = 0;
+  for (int i = 0; i < TOUCH_N_SAMPLES; i++) {
+    digitalWrite(PIN_NUM_CS, LOW);
+    // delay(10);
+
+    // Send and receive data via SPI
+    SPI.transfer(0b11010000);
+    byte byte1 = SPI.transfer(0);
+    byte byte2 = SPI.transfer(0);
     
-  // Select the SPI device (pull CS low)
-  digitalWrite(PIN_NUM_CS, LOW);
-  // delay(10);
+    // Deselect the SPI device (pull CS high)
+    digitalWrite(PIN_NUM_CS, HIGH);
 
-  // Send and receive data via SPI
-  SPI.transfer(request_Y);
-  byte byte1 = SPI.transfer(0);
-  byte byte2 = SPI.transfer(0);
+    // Add position value to sum (later to be averaged)
+    x_sum += (byte1 << 4) | (byte2 >> 4); 
+
+    delay(TOUCH_SAMPLE_DELAY); 
+  }
+  return x_sum/TOUCH_N_SAMPLES;
+
+}
+
+/* Function to get Y position from the TSC2046*/
+int get_Y_position() {
+  int y_sum = 0;
+  for (int i = 0; i < TOUCH_N_SAMPLES; i++) {
   
-  // Deselect the SPI device (pull CS high)
-  digitalWrite(PIN_NUM_CS, HIGH);
-  // Serial.println(byte1);
-  // Serial.println(byte2);
+    // Select the SPI device (pull CS low)
+    digitalWrite(PIN_NUM_CS, LOW); 
 
-  int y_position = (byte1 << 4) | (byte2 >> 4);
+    // Send and receive data via SPI
+    SPI.transfer(0b10010000);
+    byte byte1 = SPI.transfer(0);
+    byte byte2 = SPI.transfer(0);
+    
+    // Deselect the SPI device (pull CS high)
+    digitalWrite(PIN_NUM_CS, HIGH);
 
-  // ------------------- REQUESTING X-POSITION --------------------------------------
+    // Add position value to sum (later to be averaged)
+    y_sum += (byte1 << 4) | (byte2 >> 4);
 
-  byte request_X = 0b11010001;  // Example byte to send
-  // Select the SPI device (pull CS low)
-  digitalWrite(PIN_NUM_CS, LOW);
-  // delay(10);
-
-  // Send and receive data via SPI
-  SPI.transfer(request_Y);
-  byte1 = SPI.transfer(0);
-  byte2 = SPI.transfer(0);
+    delay(TOUCH_SAMPLE_DELAY);
+  }  
   
-  // Deselect the SPI device (pull CS high)
-  digitalWrite(PIN_NUM_CS, HIGH);
-  // Serial.println(byte1);
-  // Serial.println(byte2);
-
-  int x_position = (byte1 << 4) | (byte2 >> 4);
-
-  Serial.print(x_position);
-  Serial.print(", ");
-  Serial.println(y_position);
-
-  delay(10); 
+  return y_sum/TOUCH_N_SAMPLES;
 }
