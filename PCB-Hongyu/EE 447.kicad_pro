@@ -448,7 +448,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -604,7 +606,7 @@
       "Root"
     ],
     [
-      "aa1bc52b-f725-4bf4-bd2a-423bfbc9a778",
+      "41c6a779-a254-43ec-84e3-97a341d88ab5",
       "Epaper"
     ],
     [
