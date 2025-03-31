@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SmartPaper")(type "KiCad")(uri "${KIPRJMOD}/SmartPaper.pretty")(options "")(descr ""))
+)
