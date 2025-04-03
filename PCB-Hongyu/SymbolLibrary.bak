@@ -178,24 +178,20 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_SPDT"
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
+	(symbol "VLS6045AF-3R3N"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
-			(at 0 5.08 0)
+		(property "Reference" "L"
+			(at -0.762 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SLW-121586-5A-D"
-			(at 0 -5.08 0)
+		(property "Value" "3.3 uH"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,16 +207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SLW-121586-5A-D/21259971"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/VLS6045AF-3R3N/9596880"
 			(at 0 0 0)
 			(effects
 				(font
@@ -229,7 +216,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -238,10 +225,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_SPDT_0_1"
-			(circle
-				(center -2.032 0)
-				(radius 0.4572)
+		(symbol "VLS6045AF-3R3N_0_1"
+			(arc
+				(start -3.175 -0.635)
+				(mid -2.54 -0.0027)
+				(end -1.905 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -250,10 +238,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.651 0.254) (xy 1.651 2.286)
-				)
+			(arc
+				(start -1.905 -0.635)
+				(mid -1.27 -0.0027)
+				(end -0.635 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -262,9 +250,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 2.54)
-				(radius 0.4572)
+			(arc
+				(start -0.635 -0.635)
+				(mid 0 -0.0027)
+				(end 0.635 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -273,9 +262,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 -2.54)
-				(radius 0.4572)
+			(arc
+				(start 0.635 -0.635)
+				(mid 1.27 -0.0027)
+				(end 1.905 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -285,40 +275,11 @@
 				)
 			)
 		)
-		(symbol "SW_SPDT_1_1"
-			(rectangle
-				(start -3.175 3.81)
-				(end 3.175 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
+		(symbol "VLS6045AF-3R3N_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "A"
+				(at -4.445 -0.635 0)
+				(length 1.27)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -334,16 +295,16 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "C"
+				(at 3.175 -0.635 180)
+				(length 1.27)
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
