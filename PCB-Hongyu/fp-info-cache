@@ -1,4 +1,4 @@
-25226391538654116
+25219418034843517
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55975,34 +55975,6 @@ Crystal
 Resonator_SMD_Murata_TPSKA-3Pin_7.9x3.8mm_HandSoldering
 SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
 SMD SMT ceramic resonator filter filter hand-soldering
-0
-3
-3
-Custom
-5034802600
-503480-2600-1
-Connector
-0
-28
-28
-Custom
-SOT23
-<b>SOT-23</b>
-
-0
-3
-3
-Custom
-SOT65P210X110-3N
-SC-70_3LEADS
-MOSFET (N-Channel)
-0
-3
-3
-Custom
-SOT95P240X111-3N
-
-
 0
 3
 3
