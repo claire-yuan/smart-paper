@@ -1886,6 +1886,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "So we can route 3.3V \nthrough the ESP32 pins.\nSet as input pin in code"
+		(exclude_from_sim no)
+		(at 165.354 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78a9f543-22b6-489a-921e-346eee48e2c5")
+	)
 	(junction
 		(at 111.76 83.82)
 		(diameter 0)
@@ -1927,6 +1938,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8abbd258-1241-43cd-a343-9c2b8ec0c3ba")
+	)
+	(junction
+		(at 163.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e73a739-f684-46da-b927-35c5dba95c7b")
 	)
 	(junction
 		(at 90.17 113.03)
@@ -2039,6 +2056,16 @@
 			(type default)
 		)
 		(uuid "0dea660a-e6dd-42f2-8fa8-109e3204946e")
+	)
+	(wire
+		(pts
+			(xy 154.94 55.88) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d15d87-c07d-4a63-9966-5e5cce287ae5")
 	)
 	(wire
 		(pts
@@ -2239,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "664c6e73-0459-4d55-8272-5aec8d1c2f8a")
+	)
+	(wire
+		(pts
+			(xy 154.94 58.42) (xy 163.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66887b6e-367e-4db2-9539-54136cd37c76")
 	)
 	(wire
 		(pts
@@ -2502,6 +2539,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 58.42) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be868cca-af13-4894-9743-1ba3ad3f21c8")
+	)
+	(wire
+		(pts
 			(xy 52.07 105.41) (xy 52.07 119.38)
 		)
 		(stroke
@@ -2579,6 +2626,16 @@
 			(type default)
 		)
 		(uuid "d1dc19ec-64f1-4b3b-a087-aa631e82bd1e")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 163.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95a5dea-3a7f-4e91-ba4a-16415588a7d8")
 	)
 	(wire
 		(pts
@@ -2843,6 +2900,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 163.83 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03c3268e-df42-4f40-bd61-6ee622ac2885")
+		(property "Reference" "#PWR019"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 163.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "677a5585-c1cf-4cf0-a162-5770648426b6")
+		)
+		(instances
+			(project "EE 447"
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
+					(reference "#PWR019")
+					(unit 1)
+				)
 			)
 		)
 	)

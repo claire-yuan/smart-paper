@@ -4716,7 +4716,7 @@
 		)
 		(uuid "83130892-bcff-4ba9-b66c-9dfa469a8835")
 	)
-	(label "BATT_D"
+	(label "BATT"
 		(at 35.56 157.48 0)
 		(effects
 			(font
@@ -4756,7 +4756,7 @@
 		)
 		(uuid "b9104c1a-32a1-46c6-8c2f-c9f9a9d48ca9")
 	)
-	(label "USB_IN"
+	(label "USB"
 		(at 50.8 146.05 90)
 		(effects
 			(font
