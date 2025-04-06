@@ -114,8 +114,8 @@
 		(uuid "ac3722d5-3de4-4f47-af17-114a0986e9c9")
 	)
 	(fp_circle
-		(center -5.8547 -2.9553)
-		(end -5.4737 -2.9553)
+		(center -4.8 -4.8)
+		(end -4.419 -4.8)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "871100f4-ff6a-41df-875f-282e2df46e69")
 	)
 	(fp_circle
-		(center -5.8547 -2.9553)
-		(end -5.4737 -2.9553)
+		(center -4.8 -4.8)
+		(end -4.419 -4.8)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -263,4 +263,15 @@
 		(uuid "0a8c2829-8a24-4dc0-844d-13f3c01a0061")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/S2B-PH-SM4-TB.stp"
+		(offset
+			(xyz 0 -4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

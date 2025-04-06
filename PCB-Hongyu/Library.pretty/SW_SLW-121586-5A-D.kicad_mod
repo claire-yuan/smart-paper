@@ -258,4 +258,15 @@
 		(uuid "0e35e381-3abd-47ee-acfe-290071622fbb")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/SLW-121586-5A-D.stp"
+		(offset
+			(xyz 4 -3 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

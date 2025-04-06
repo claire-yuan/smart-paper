@@ -1,4 +1,4 @@
-25233366455045197
+25231623669963624
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66731,9 +66731,9 @@ ESP32C3-mini-Devkit
 30
 30
 Library
-IND_VLS6045AF-3R3N
+IND_SWPA5040S_SNL
 
-
+SWPA5040S3R3NT 
 0
 2
 2
@@ -66758,13 +66758,6 @@ TSC2046IPWR
 0
 16
 16
-Library
-SDES064T-100MS
-
-
-0
-2
-2
 Library
 SDO_B120AF_DIO
 
