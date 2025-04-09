@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5034802600"
+		(property "Footprint" ""
 			(at 54.61 202.87 0)
 			(effects
 				(font
