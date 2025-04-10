@@ -3567,7 +3567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PW16"
+		(property "Footprint" "PW16"
 			(at 110.49 102.87 0)
 			(effects
 				(font

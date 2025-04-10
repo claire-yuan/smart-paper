@@ -5645,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KAYNNNG/3894413"
+		(property "Datasheet" "~"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 129.54 49.53 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 264.16 124.46 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 24.13 123.19 0)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/B120AF-13/7666730?msockid=2a8a152c36276813238106c8370a6914"
+		(property "Datasheet" "~"
 			(at 193.04 72.39 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/bq21040dbvr/6036340"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq21040.pdf"
 			(at 72.39 79.248 0)
 			(effects
 				(font
@@ -6528,7 +6528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 24.13 49.53 0)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/VLS6045AF-3R3N/9596880"
+		(property "Datasheet" "~"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -6671,7 +6671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWPA5040S3R3NT"
+		(property "Description" "Inductor"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -7438,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 114.3 134.62 0)
 			(effects
 				(font
@@ -7832,7 +7832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB5361V/2025729"
+		(property "Datasheet" "~"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415UQ-7/17291283"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 66.04 154.94 0)
 			(effects
 				(font
