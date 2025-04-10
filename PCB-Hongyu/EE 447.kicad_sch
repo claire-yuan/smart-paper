@@ -4696,8 +4696,8 @@
 		)
 	)
 	(sheet
-		(at 203.2 26.67)
-		(size 22.86 29.21)
+		(at 217.17 26.67)
+		(size 20.32 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4710,9 +4710,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "41c6a779-a254-43ec-84e3-97a341d88ab5")
+		(uuid "9f33d424-8f8c-499b-911f-2b5f72ba0270")
 		(property "Sheetname" "Epaper"
-			(at 203.2 25.9584 0)
+			(at 217.17 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4721,7 @@
 			)
 		)
 		(property "Sheetfile" "../PCB_June/PCB.kicad_sch"
-			(at 203.2 56.4646 0)
+			(at 217.17 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
