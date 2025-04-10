@@ -3887,6 +3887,12 @@
 		(uuid "6fd95526-2c32-419d-bc24-b0ad7f987309")
 	)
 	(junction
+		(at 64.77 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70521c61-f55b-48a6-a846-6173da10f13f")
+	)
+	(junction
 		(at 257.81 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3975,10 +3981,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f76d37f5-d425-4d6d-afe6-572613580537")
-	)
-	(no_connect
-		(at 72.39 134.62)
-		(uuid "14b882f7-b2f0-486b-85b9-73fde1125a68")
 	)
 	(no_connect
 		(at 105.41 151.13)
@@ -4126,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 140.97) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d753e25-d867-463a-97cf-9ef24d114db8")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 87.63)
 		)
 		(stroke
@@ -4236,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 142.24) (xy 64.77 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2f6e45-c56d-45d2-bff0-b610fb42b49c")
+	)
+	(wire
+		(pts
 			(xy 34.29 129.54) (xy 36.83 129.54)
 		)
 		(stroke
@@ -4343,6 +4365,16 @@
 			(type default)
 		)
 		(uuid "5304e959-1025-4d4d-af85-e95b9c3ccbfc")
+	)
+	(wire
+		(pts
+			(xy 64.77 140.97) (xy 64.77 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55baaa2b-e3bc-420c-8048-279f28b65230")
 	)
 	(wire
 		(pts
@@ -4723,6 +4755,16 @@
 			(type default)
 		)
 		(uuid "a57d7704-dbce-4d3d-bf31-52ae6d097901")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 72.39 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a982ecc8-97d0-4825-8c9b-921ca836cd08")
 	)
 	(wire
 		(pts
@@ -6653,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:IND_SWPA5040S_SNL"
+		(property "Footprint" "Library:IND_VLS6045AF-3R3N"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -6662,7 +6704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/VLS6045AF-3R3N/9596880"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -6671,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "VLS6045AF-3R3N"
 			(at 172.72 57.15 0)
 			(effects
 				(font
@@ -9421,7 +9463,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 139.7 0)
+		(at 64.77 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9429,7 +9471,7 @@
 		(dnp no)
 		(uuid "e2b57e82-7a39-43c7-a6a5-9aa3bce82b4e")
 		(property "Reference" "#PWR022"
-			(at 64.77 146.05 0)
+			(at 64.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 144.78 0)
+			(at 64.77 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 139.7 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 139.7 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 139.7 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

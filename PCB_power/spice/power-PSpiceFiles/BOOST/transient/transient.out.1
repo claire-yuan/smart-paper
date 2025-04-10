@@ -1,0 +1,54 @@
+
+**** 04/10/25 15:49:51 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "BOOST-transient"  [ C:\Users\yuanc\OneDrive - University of Southern California\Documents\COLLEGE\2025-SPRING\ee447\sma
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\BOOST.net" 
+
+
+
+**** INCLUDING BOOST.net ****
+* source POWER
+X_U4         VIN VIN 0 N16702 N16657 0 TLV61048 PARAMS:  SS_CURRENT=10N
+V_V2         VIN 0 3.7
+R_R3         N16657 VOUT  590k TC=0,0 
+R_R4         0 N16657  100k TC=0,0 
+D_D1         N16702 VOUT MBR320 
+C_C2         0 VOUT  10u  TC=0,0 
+C_C3         0 VIN  1u  TC=0,0 
+C_C4         0 VOUT  1u  TC=0,0 
+X_U5         VOUT N17416 0 VOUT N17280 0 TPS717185_TRANS
+C_C5         0 N17280  1u  TC=0,0 
+C_C6         0 N17416  0.01u  TC=0,0 
+L_L1         VIN N179991  3.3u  
+R_R5         N179991 N16702  22m TC=0,0 
+
+**** RESUMING transient.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving X_U5.V_NC. You may break the loop by adding a series resistance
+
