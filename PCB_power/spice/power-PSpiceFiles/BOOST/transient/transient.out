@@ -1,5 +1,5 @@
 
-**** 04/10/25 16:37:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 04/10/25 16:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "BOOST-transient"  [ C:\Users\yuanc\OneDrive - University of Southern California\Documents\COLLEGE\2025-SPRING\ee447\sma
 
@@ -23,7 +23,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 3 1 
+.TRAN  0 0.8 0.5 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
@@ -65,7 +65,7 @@ C_C10         0 0  1u  TC=0,0
 **** RESUMING transient.cir ****
 .END
 
-**** 04/10/25 16:37:56 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+**** 04/10/25 16:47:36 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
 
  ** Profile: "BOOST-transient"  [ C:\Users\yuanc\OneDrive - University of Southern California\Documents\COLLEGE\2025-SPRING\ee447\sma
 
