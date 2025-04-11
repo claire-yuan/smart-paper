@@ -2159,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da3b6a7-386b-4c0c-b962-349a72b6aeb3")
+	)
+	(wire
+		(pts
 			(xy 158.75 53.34) (xy 158.75 60.96)
 		)
 		(stroke
@@ -2349,6 +2359,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c84479-e539-4b0f-8420-46ccc111d67e")
+	)
+	(wire
+		(pts
 			(xy 80.01 95.25) (xy 80.01 96.52)
 		)
 		(stroke
@@ -2406,6 +2426,16 @@
 			(type default)
 		)
 		(uuid "8ad141ee-0a7d-42f5-beca-99d2c56df011")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f805acb-ca8c-455f-b188-0dad4f611ca0")
 	)
 	(wire
 		(pts
@@ -2599,6 +2629,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 76.2) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd13f142-7fbe-403b-8091-a3680053b68e")
+	)
+	(wire
+		(pts
 			(xy 128.27 88.9) (xy 128.27 90.17)
 		)
 		(stroke
@@ -2749,6 +2789,28 @@
 			)
 		)
 	)
+	(global_label "EPD_DC"
+		(shape output)
+		(at 161.29 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24a1033a-3fc7-434b-98b0-813fe222b5db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4718 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLK"
 		(shape input)
 		(at 181.61 102.87 0)
@@ -2767,6 +2829,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_CS"
+		(shape output)
+		(at 124.46 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "607d1cf3-41ce-46a0-bcf4-66a5ea3734ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3387 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2850,6 +2934,50 @@
 		(uuid "a9aac455-d02d-4ddb-b193-a17068a6c5ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.8433 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_RST"
+		(shape output)
+		(at 161.29 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1458d69-1078-45e4-b989-52116623ecff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.3789 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_BUSY"
+		(shape output)
+		(at 161.29 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9faaa8a-e731-4f43-8d20-2a31af5ee73d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8304 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

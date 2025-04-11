@@ -3005,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 130.81) (xy 60.96 130.81)
+			(xy 53.34 130.81) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 128.27) (xy 60.96 128.27)
+			(xy 53.34 128.27) (xy 73.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 60.96 123.19)
+			(xy 53.34 123.19) (xy 73.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 125.73) (xy 60.96 125.73)
+			(xy 53.34 125.73) (xy 73.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4833,6 +4833,50 @@
 		)
 		(uuid "fb3d588d-8027-4f96-9cf0-42696655cf40")
 	)
+	(global_label "EPD_CS"
+		(shape input)
+		(at 73.66 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "142619f5-092a-4aa5-a443-ac44246ae707")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7813 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_BUSY"
+		(shape input)
+		(at 73.66 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f185ba-fabe-452f-ad94-3142bd4a6db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2004 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 73.66 135.89 0)
@@ -4846,6 +4890,50 @@
 		(uuid "5b646341-77f2-4e25-a837-e2f2b27ee1fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.2414 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_RST"
+		(shape input)
+		(at 73.66 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cc7d133-37e5-4355-8361-2b40ba3dc2d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7489 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EPD_DC"
+		(shape input)
+		(at 73.66 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75a48b66-0fac-4205-b75e-957fd213ca5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8418 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
