@@ -389,6 +389,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:ESP32C3-mini_Devboard"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2000,12 +2083,36 @@
 		(uuid "fd382360-3b56-4b09-9fc3-3008266861ad")
 	)
 	(no_connect
+		(at 154.94 86.36)
+		(uuid "4ec71288-c501-4311-8db7-e104d18c2f7f")
+	)
+	(no_connect
+		(at 130.81 73.66)
+		(uuid "6f5088c4-fc1b-4440-b557-a187a35714a5")
+	)
+	(no_connect
 		(at 176.53 120.65)
 		(uuid "8bc006d6-fc07-48d0-9756-c27b41de5833")
 	)
 	(no_connect
+		(at 176.53 110.49)
+		(uuid "8e0997e9-8ff6-4138-8cb7-86d73210a2ce")
+	)
+	(no_connect
+		(at 154.94 66.04)
+		(uuid "900cf645-826b-41c3-a1d6-06b92886238d")
+	)
+	(no_connect
+		(at 130.81 68.58)
+		(uuid "b57e4842-5e1a-4abc-8dab-9012f8470cb4")
+	)
+	(no_connect
 		(at 110.49 120.65)
 		(uuid "d8da31ac-61d3-48e7-9b1c-c1dea70f75b0")
+	)
+	(no_connect
+		(at 130.81 76.2)
+		(uuid "f3e7c866-5ba7-4866-9fc1-cd8f5c0b2728")
 	)
 	(wire
 		(pts
@@ -2499,6 +2606,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7a0891-7164-4e61-a893-baf9efdc2169")
+	)
+	(wire
+		(pts
 			(xy 110.49 115.57) (xy 99.06 115.57)
 		)
 		(stroke
@@ -2729,6 +2846,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 181.61 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37b27ac-43d0-44be-b56d-38c2fced666f")
+	)
+	(wire
+		(pts
 			(xy 93.98 95.25) (xy 93.98 96.52)
 		)
 		(stroke
@@ -2766,6 +2893,26 @@
 			(type default)
 		)
 		(uuid "ff1fdb13-6456-4290-8e30-6e94871ecec8")
+	)
+	(label "PENIRQ"
+		(at 181.61 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53c874ba-21ab-49be-84b1-c65875312543")
+	)
+	(label "PENIRQ"
+		(at 171.45 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55679c3b-fb86-4947-a6ad-dd626ea39808")
 	)
 	(global_label "MISO"
 		(shape input)
@@ -3401,7 +3548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10u"
 			(at 83.82 92.7099 0)
 			(effects
 				(font
@@ -3801,7 +3948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NC"
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -3847,6 +3994,70 @@
 			(project "EE 447"
 				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e2c0fb9-c011-45c8-9a4c-182a930398a1")
+		(property "Reference" "H3"
+			(at 29.21 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EE 447"
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3913,6 +4124,134 @@
 			(project "EE 447"
 				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cd61ca1-13ee-496b-9df6-ba19611a2ae2")
+		(property "Reference" "H1"
+			(at 29.21 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "761d882c-666a-4cb6-9fb3-e45416405027")
+		(property "Reference" "H2"
+			(at 29.21 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EE 447"
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1u"
 			(at 97.79 92.7099 0)
 			(effects
 				(font
@@ -4524,7 +4863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NC"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -4594,7 +4933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NC"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -4730,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "NC"
 			(at 55.88 124.46 0)
 			(effects
 				(font

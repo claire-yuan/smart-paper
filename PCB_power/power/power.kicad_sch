@@ -6687,7 +6687,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3 uH"
+		(property "Value" "3.3uH"
 			(at 172.72 54.61 90)
 			(effects
 				(font

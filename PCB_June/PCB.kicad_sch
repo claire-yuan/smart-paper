@@ -2983,6 +2983,50 @@
 		(color 0 0 0 0)
 		(uuid "faa4538d-2a20-4f55-b0f4-63e7b29549aa")
 	)
+	(no_connect
+		(at 53.34 110.49)
+		(uuid "1d3de8f6-96bc-4d33-8727-b95035a05168")
+	)
+	(no_connect
+		(at 142.24 119.38)
+		(uuid "2120edda-6463-4110-aba9-21a26d1084c7")
+	)
+	(no_connect
+		(at 142.24 111.76)
+		(uuid "224bd4d8-e2db-4c81-b225-3e6dd365f643")
+	)
+	(no_connect
+		(at 119.38 114.3)
+		(uuid "2e31fa2c-983c-40a6-ad24-999d3c7800b2")
+	)
+	(no_connect
+		(at 53.34 148.59)
+		(uuid "53a88f47-3910-442d-aff3-30199672e49d")
+	)
+	(no_connect
+		(at 53.34 102.87)
+		(uuid "558e7eae-741a-48ca-8fee-f484167636ab")
+	)
+	(no_connect
+		(at 142.24 134.62)
+		(uuid "58d900a4-0dd9-4696-9d6f-7d829a984084")
+	)
+	(no_connect
+		(at 53.34 118.11)
+		(uuid "6c5fa437-682e-49bf-80cb-9e0a6205f78b")
+	)
+	(no_connect
+		(at 53.34 115.57)
+		(uuid "9ae17d3f-f45c-4906-8f36-fb9ca10a1dd1")
+	)
+	(no_connect
+		(at 119.38 129.54)
+		(uuid "aa554198-76e4-48c7-a733-985b146c395d")
+	)
+	(no_connect
+		(at 119.38 116.84)
+		(uuid "b648d46a-215e-43ff-81a6-78473ea5a2e3")
+	)
 	(wire
 		(pts
 			(xy 21.59 50.8) (xy 21.59 64.77)
@@ -3032,16 +3076,6 @@
 			(type default)
 		)
 		(uuid "0a83e112-1bba-4308-a179-0ed194bda335")
-	)
-	(wire
-		(pts
-			(xy 91.44 48.26) (xy 96.52 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0becca78-d448-4dae-9a51-beebf194763c")
 	)
 	(wire
 		(pts
@@ -3542,6 +3576,16 @@
 			(type default)
 		)
 		(uuid "7dd43123-5e50-4686-9e54-a4550fb97dfb")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1790e4-8ab2-4d42-8a64-96d56944e272")
 	)
 	(wire
 		(pts
@@ -4143,6 +4187,16 @@
 		)
 		(uuid "08767114-ad42-45c5-ab89-bd4c13f66c14")
 	)
+	(label "3V3_OUT"
+		(at 36.83 41.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a6241ba-df27-490f-8e0f-4244db86b54b")
+	)
 	(label "GND"
 		(at 127 60.96 0)
 		(effects
@@ -4173,26 +4227,6 @@
 		)
 		(uuid "13bddf71-7ba4-4478-86e5-005b920b628f")
 	)
-	(label "3V3_OUT"
-		(at 36.83 46.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14fb50cc-3a5e-4aca-b4e6-a27ca1d2cb95")
-	)
-	(label "EPD_PWR"
-		(at 86.36 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "170908be-1694-46ec-a344-91576e2edc59")
-	)
 	(label "BS"
 		(at 62.23 120.65 0)
 		(effects
@@ -4202,16 +4236,6 @@
 			(justify left bottom)
 		)
 		(uuid "1bfb40a9-c987-4635-ade3-2a66cfd347a8")
-	)
-	(label "3V3_OUT"
-		(at 36.83 46.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f10302f-34be-483f-acbe-e35c458e4c64")
 	)
 	(label "SUB20"
 		(at 60.96 151.13 0)
@@ -4373,16 +4397,6 @@
 		)
 		(uuid "57d828e9-bb0d-4c35-ad75-a923298ca251")
 	)
-	(label "3V3_OUT"
-		(at 36.83 46.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58a0681d-ef30-4e35-85e8-fa74d6ca693e")
-	)
 	(label "EPD_SCK"
 		(at 149.86 127 0)
 		(effects
@@ -4403,16 +4417,6 @@
 		)
 		(uuid "65bb892b-4c7f-4880-94a8-f7bbf8c70b7d")
 	)
-	(label "EPD_PWR"
-		(at 86.36 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f1a9099-08f8-4f4e-b210-e470744de01f")
-	)
 	(label "GND"
 		(at 149.86 132.08 0)
 		(effects
@@ -4432,16 +4436,6 @@
 			(justify left bottom)
 		)
 		(uuid "737ca111-03bd-4c92-bf18-818535669fa5")
-	)
-	(label "EPD_PWR"
-		(at 86.36 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7536e456-3b0a-45f1-9ccc-2cee640fd32f")
 	)
 	(label "VGL"
 		(at 149.86 139.7 0)
@@ -4553,6 +4547,16 @@
 		)
 		(uuid "96ae5d07-8913-4bf8-9b97-15423ae9b0cf")
 	)
+	(label "EPD_PWR"
+		(at 86.36 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9abcaba9-f0d8-4927-9d1d-ffabe87fc15b")
+	)
 	(label "VGL"
 		(at 60.96 158.75 0)
 		(effects
@@ -4582,16 +4586,6 @@
 			(justify left bottom)
 		)
 		(uuid "a196aee4-8f1e-4ece-82fd-fef9c605cec3")
-	)
-	(label "3V3_OUT"
-		(at 36.83 46.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1d2a2ac-84d7-4573-a00f-417766cf8904")
 	)
 	(label "GND"
 		(at 86.36 43.18 90)
@@ -4693,6 +4687,16 @@
 		)
 		(uuid "bd2ba8d5-d4dd-4632-87d2-8b8edc1eb439")
 	)
+	(label "3V3_OUT"
+		(at 130.81 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfdefd7e-c876-493d-868e-5ce9c1db50ed")
+	)
 	(label "EPD_BUSY"
 		(at 149.86 121.92 0)
 		(effects
@@ -4702,16 +4706,6 @@
 			(justify left bottom)
 		)
 		(uuid "c68958d8-8b3f-4fb1-96d8-9957c29aad43")
-	)
-	(label "3V3_OUT"
-		(at 130.81 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cca33128-1f6f-41b4-9ba1-131574099cbf")
 	)
 	(label "GND"
 		(at 22.86 170.18 0)
@@ -4772,16 +4766,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3e65b2e-b7e8-49d0-9764-9a49bbd58936")
-	)
-	(label "EPD_PWR"
-		(at 86.36 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8cf1705-0e91-4c80-8d52-8bfdc504178c")
 	)
 	(label "VGH"
 		(at 149.86 137.16 0)
@@ -5476,7 +5460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 110.49 34.2899 0)
 			(effects
 				(font
@@ -6037,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 104.14 52.07 90)
 			(effects
 				(font
@@ -6718,7 +6702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 99.06 40.6399 0)
 			(effects
 				(font
@@ -6794,7 +6778,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 113.03 57.1499 0)
 			(effects
 				(font
@@ -7025,7 +7009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "104"
+		(property "Value" "0.1u"
 			(at 90.17 35.5599 0)
 			(effects
 				(font
@@ -7100,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 29.21 29.21 90)
 			(effects
 				(font
@@ -7174,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uH"
 			(at 43.18 48.26 90)
 			(effects
 				(font

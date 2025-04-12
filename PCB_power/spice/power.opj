@@ -4,7 +4,7 @@
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
-    (Allegro Netlist Directory "allegro")
+    ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -24,9 +24,12 @@
          ".\power-pspicefiles\boost\transient.sim"
         (DisplayName "BOOST-transient")
         (Type "PSpice Profile")))
-    (Folder "Model Libraries")
-    (Folder "Stimulus Files")
-    (Folder "Include Files"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
@@ -80,7 +83,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "C:\Users\yuanc\OneDrive - University of Southern California\Documents\COLLEGE\2025-SPRING\ee447\smart-paper\PCB_power\spice\power.dsn"
-         "BOOST"))
+         "BOOST" "battery_powered"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -90,9 +93,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1217 24 508")
-        (Scroll "0 406")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 -1 -1 5 811 24 508")
+        (Scroll "-86 -3")
+        (Zoom "62")
         (Occurrence "/"))
       (Path
          "C:\USERS\YUANC\ONEDRIVE - UNIVERSITY OF SOUTHERN CALIFORNIA\DOCUMENTS\COLLEGE\2025-SPRING\EE447\SMART-PAPER\PCB_POWER\SPICE\POWER.DSN")
