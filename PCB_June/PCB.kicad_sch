@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WE-MXGI_5030:WE-MXGI_5030"
+		(property "Footprint" "Custom:WE-MXGI_5030"
 			(at 43.18 50.8 0)
 			(effects
 				(font
