@@ -2313,7 +2313,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SymbolLibrary:S2B-PH-SM4-TB"
+		(symbol "SymbolLibrary:S2B-PH-K-SLFSN"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2328,7 +2328,7 @@
 					)
 				)
 			)
-			(property "Value" "S2B-PH-SM4-TB"
+			(property "Value" "S2B-PH-K-SLFSN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2336,7 +2336,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Library:CONN_S2B-PH-SM4-TB_JST"
+			(property "Footprint" "Library:CONN_S2B-PH-K-S_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2346,7 +2346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "S2B-PH-SM4-TB"
+			(property "Datasheet" "S2B-PH-K-SLFSN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2365,7 +2365,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "S2B-PH-SM4-TB"
+			(property "ki_keywords" "S2B-PH-K-S(LF)(SN)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2374,7 +2374,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN_S2B-PH-SM4-TB_JST"
+			(property "ki_fp_filters" "CONN_S2B-PH-K-S_JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2383,10 +2383,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "S2B-PH-SM4-TB_1_1"
+			(symbol "S2B-PH-K-SLFSN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2398,7 +2398,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2482,78 +2482,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -2566,7 +2494,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
+						(xy 12.7 -5.08) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -2612,47 +2540,11 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "S2B-PH-SM4-TB_1_2"
+			(symbol "S2B-PH-K-SLFSN_1_2"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy 5.08 2.54) (xy 5.08 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2664,7 +2556,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2748,78 +2640,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -2832,7 +2652,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
+						(xy 12.7 -5.08) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -2871,42 +2691,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3803,18 +3587,6 @@
 		(uuid "f06dab69-a34f-42da-8b7e-ae86f982422e")
 	)
 	(junction
-		(at 132.08 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "019cb60e-c58f-4535-9109-65b2955a5426")
-	)
-	(junction
-		(at 132.08 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0781be4f-e09f-43f8-a7e0-1ae9c3d77ac2")
-	)
-	(junction
 		(at 86.36 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4015,16 +3787,6 @@
 			(type default)
 		)
 		(uuid "0206918f-e68a-4987-bd5b-84350645cbf9")
-	)
-	(wire
-		(pts
-			(xy 132.08 176.53) (xy 132.08 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06138816-527e-4303-8a42-f7e1f974852a")
 	)
 	(wire
 		(pts
@@ -4405,16 +4167,6 @@
 			(type default)
 		)
 		(uuid "5a77f1f3-7c06-432a-a684-3dcfb14028eb")
-	)
-	(wire
-		(pts
-			(xy 132.08 173.99) (xy 132.08 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2398e1-d1cd-4000-9023-8388c8cda714")
 	)
 	(wire
 		(pts
@@ -5514,7 +5266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61048.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1743281673327&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv61048"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TLV61048DBVR/10715594"
 			(at 172.72 76.2 0)
 			(effects
 				(font
@@ -5600,7 +5352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/SLW-121586-5A-D/21259971?msockid=2a8a152c36276813238106c8370a6914"
 			(at 100.33 156.21 0)
 			(effects
 				(font
@@ -5745,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -5755,6 +5507,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H106KE43L"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -5892,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TLV75733PDBVR/9343364"
 			(at 163.83 134.62 0)
 			(effects
 				(font
@@ -6101,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 30.48 129.54 0)
 			(effects
 				(font
@@ -6111,6 +5872,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 30.48 129.54 0)
 			(effects
 				(font
@@ -6169,7 +5939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/B120AF-13/7666730"
 			(at 193.04 72.39 0)
 			(effects
 				(font
@@ -6329,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq21040.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/BQ21040DBVR/6036340"
 			(at 72.39 79.248 0)
 			(effects
 				(font
@@ -6417,7 +6187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -6427,6 +6197,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H106KE43L"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -6486,7 +6265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 233.68 77.47 0)
 			(effects
 				(font
@@ -6496,6 +6275,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 233.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 233.68 77.47 0)
 			(effects
 				(font
@@ -6912,7 +6700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -6922,6 +6710,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H106KE43L"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -6982,7 +6779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -6992,6 +6789,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -7184,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 271.78 72.39 0)
 			(effects
 				(font
@@ -7194,6 +7000,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 271.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 271.78 72.39 0)
 			(effects
 				(font
@@ -7324,7 +7139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/LM66100DCKR/10273183"
 			(at 64.77 133.096 0)
 			(effects
 				(font
@@ -7536,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-071KL/5896641"
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -7546,6 +7361,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-071KL"
 			(at 152.4 135.89 0)
 			(effects
 				(font
@@ -7804,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/ac0805fr-07100kl/5896520"
 			(at 40.64 162.56 0)
 			(effects
 				(font
@@ -7814,6 +7638,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 40.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-07100KL"
 			(at 40.64 162.56 0)
 			(effects
 				(font
@@ -7874,7 +7707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6AEB5361V/2025729"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -7883,7 +7716,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "ERA-6AEB5361V"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERA-6AEB5361V"
 			(at 55.88 67.31 0)
 			(effects
 				(font
@@ -8051,84 +7893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SymbolLibrary:S2B-PH-SM4-TB")
-		(at 132.08 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a619e95a-535c-4d85-9dc0-2bb001aea35e")
-		(property "Reference" "J3"
-			(at 146.05 173.9899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2B-PH-SM4-TB"
-			(at 146.05 176.5299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:CONN_S2B-PH-SM4-TB_JST"
-			(at 132.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "S2B-PH-SM4-TB"
-			(at 132.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35e3fd71-020b-47fa-b16f-71646f401462")
-		)
-		(pin "4"
-			(uuid "b9e3953c-3311-4ae6-abf4-3df29ed4038f")
-		)
-		(pin "2"
-			(uuid "a6e67201-cc55-41cd-9adc-f3d54c4f4d73")
-		)
-		(pin "3"
-			(uuid "93c49374-c27d-40c3-846a-acc1b2ab93cb")
-		)
-		(instances
-			(project "EE 447"
-				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/3a173c46-51db-4007-b18a-20d9e5d94759"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 200.66 76.2 0)
 		(unit 1)
@@ -8165,7 +7929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07590KL/728047"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -8174,7 +7938,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RC0805FR-07590KL"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-07590KL"
 			(at 200.66 76.2 0)
 			(effects
 				(font
@@ -8239,7 +8012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -8249,6 +8022,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -8309,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 46.99 63.5 0)
 			(effects
 				(font
@@ -8319,6 +8101,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 46.99 63.5 0)
 			(effects
 				(font
@@ -8587,7 +8378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-071KL/5896641"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -8597,6 +8388,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-071KL"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -8731,7 +8531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/ac0805fr-07100kl/5896520"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -8741,6 +8541,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-07100KL"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -8804,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/MCP1825ST-5002E-DB/1635502"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -8947,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -8957,6 +8766,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 224.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 224.79 72.39 0)
 			(effects
 				(font
@@ -9017,7 +8835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 137.16 138.43 0)
 			(effects
 				(font
@@ -9027,6 +8845,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H475KE51L"
 			(at 137.16 138.43 0)
 			(effects
 				(font
@@ -9085,7 +8912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 33.02 58.42 0)
 			(effects
 				(font
@@ -9095,6 +8922,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 33.02 58.42 0)
 			(effects
 				(font
@@ -9268,21 +9104,21 @@
 		(fields_autoplaced yes)
 		(uuid "df5bbc88-5313-44de-8fff-ed5dff19236a")
 		(property "Reference" "C18"
-			(at 21.59 134.6262 0)
+			(at 26.67 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1u"
-			(at 21.59 137.1662 0)
+			(at 26.67 137.1662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -9294,7 +9130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 24.13 135.89 0)
 			(effects
 				(font
@@ -9304,6 +9140,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 24.13 135.89 0)
 			(effects
 				(font
@@ -9428,7 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
 			(at 31.75 157.48 0)
 			(effects
 				(font
@@ -9438,6 +9283,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 31.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805JR-070RL"
 			(at 31.75 157.48 0)
 			(effects
 				(font
@@ -9635,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmg3415uq-7/16547486"
 			(at 66.04 154.94 0)
 			(effects
 				(font
@@ -9801,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 86.36 68.58 0)
 			(effects
 				(font
@@ -9810,7 +9664,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RC0805FR-0710KL"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0710KL"
 			(at 86.36 68.58 0)
 			(effects
 				(font
@@ -9874,7 +9737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/liteon/LTST-C171KRKT/386801"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -9923,6 +9786,78 @@
 		)
 	)
 	(symbol
+		(lib_id "SymbolLibrary:S2B-PH-K-SLFSN")
+		(at 132.08 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68d8d04-f1ac-4053-8521-cebd3d9388f2")
+		(property "Reference" "J3"
+			(at 146.05 171.4499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-K-SLFSN"
+			(at 146.05 173.9899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:CONN_S2B-PH-K-S_JST"
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S2B-PH-K-SLFSN"
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ba774be-a615-435e-86a6-7a5c7dd94791")
+		)
+		(pin "1"
+			(uuid "923113be-353d-4e98-be6a-7ebe9a5d505f")
+		)
+		(instances
+			(project ""
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/3a173c46-51db-4007-b18a-20d9e5d94759"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 257.81 77.47 0)
 		(unit 1)
@@ -9959,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
 			(at 257.81 77.47 0)
 			(effects
 				(font
@@ -9969,6 +9904,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H106KE43L"
 			(at 257.81 77.47 0)
 			(effects
 				(font
@@ -10101,7 +10045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/ac0805fr-07100kl/5896520"
 			(at 36.83 134.62 0)
 			(effects
 				(font
@@ -10111,6 +10055,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 36.83 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-07100KL"
 			(at 36.83 134.62 0)
 			(effects
 				(font

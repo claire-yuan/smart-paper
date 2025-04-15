@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -16,14 +16,14 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffddac",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffddfd",
     "zone_display_mode": 0
   },
   "git": {
@@ -92,18 +92,18 @@
       11
     ],
     "col_widths": [
-      411,
-      384,
-      253,
-      170,
-      253,
-      253,
-      253,
-      181,
-      253,
-      253,
-      253,
-      253
+      183,
+      171,
+      113,
+      75,
+      113,
+      113,
+      113,
+      81,
+      113,
+      113,
+      113,
+      113
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

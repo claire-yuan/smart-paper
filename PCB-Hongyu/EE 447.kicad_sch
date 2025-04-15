@@ -3566,7 +3566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -3576,6 +3576,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H106KE43L"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -3936,7 +3945,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52800709-5955-4037-922b-8efe1c2c7af9")
 		(property "Reference" "C2"
@@ -4851,7 +4860,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6e718bc-1b9e-49df-9ef1-ec3570e3d46b")
 		(property "Reference" "C3"
@@ -4921,7 +4930,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e99e4c94-5a45-4154-a944-bc79d2895600")
 		(property "Reference" "C5"
@@ -5057,7 +5066,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fe6a9a57-9655-4749-bee8-21f8f0bf96b0")
 		(property "Reference" "C1"

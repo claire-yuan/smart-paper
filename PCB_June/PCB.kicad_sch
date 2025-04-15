@@ -5338,7 +5338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -5348,6 +5348,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -5411,7 +5420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 138.43 0)
 			(effects
 				(font
@@ -5421,6 +5430,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 138.43 0)
 			(effects
 				(font
@@ -5485,7 +5503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -5495,6 +5513,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H475KE51L"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -5635,7 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61H475KE51L/4905540"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -5645,6 +5672,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM21BR61H475KE51L"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -5708,7 +5744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 151.13 0)
 			(effects
 				(font
@@ -5718,6 +5754,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 151.13 0)
 			(effects
 				(font
@@ -6048,7 +6093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 146.05 0)
 			(effects
 				(font
@@ -6058,6 +6103,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 146.05 0)
 			(effects
 				(font
@@ -6121,7 +6175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -6131,6 +6185,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0710KL"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -6352,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 156.21 0)
 			(effects
 				(font
@@ -6362,6 +6425,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 156.21 0)
 			(effects
 				(font
@@ -6425,7 +6497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -6435,6 +6507,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 73.66 113.03 0)
 			(effects
 				(font
@@ -6498,7 +6579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 158.75 0)
 			(effects
 				(font
@@ -6508,6 +6589,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 158.75 0)
 			(effects
 				(font
@@ -6879,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/ac0805fr-07100kl/5896520"
 			(at 110.49 55.88 0)
 			(effects
 				(font
@@ -6889,6 +6979,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AC0805FR-07100KL"
 			(at 110.49 55.88 0)
 			(effects
 				(font
@@ -7034,7 +7133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
 			(at 74.93 153.67 0)
 			(effects
 				(font
@@ -7044,6 +7143,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
 			(at 74.93 153.67 0)
 			(effects
 				(font
@@ -7184,7 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 29.21 33.02 0)
 			(effects
 				(font
@@ -7194,6 +7302,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0710KL"
 			(at 29.21 33.02 0)
 			(effects
 				(font
