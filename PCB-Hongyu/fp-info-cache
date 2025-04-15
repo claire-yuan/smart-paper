@@ -1,4 +1,4 @@
-25240345984573177
+25229885294423731
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55978,55 +55978,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-Custom
-5034802600
-503480-2600-1
-Connector
-0
-28
-28
-Custom
-61302421121
-61302421121-2
-Connector
-0
-24
-24
-Custom
-FH34SRJ24S05SH99
-FH34SRJ-24S-0.5SH(99)-4
-Connector
-0
-26
-26
-Custom
-SOT23
-<b>SOT-23</b>
-
-0
-3
-3
-Custom
-SOT65P210X110-3N
-SC-70_3LEADS
-MOSFET (N-Channel)
-0
-3
-3
-Custom
-SOT95P240X111-3N
-
-
-0
-3
-3
-Custom
-WE-MXGI_5030
-
-
-0
-2
-2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -59240,6 +59191,13 @@ heatsink
 0
 0
 0
+Hongyu
+CON4_SMT-RA_FCC-FPC2
+
+84952-4 
+0
+6
+6
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height

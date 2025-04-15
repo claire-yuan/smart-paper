@@ -7236,6 +7236,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21B104KBCNNNC"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8e45bd6-e34b-4f45-aad0-3bcc65bdd019")
 		)

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "Custom")(type "KiCad")(uri "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/footprints/june")(options "")(descr ""))
+  (lib (name "Hongyu")(type "KiCad")(uri "C:/Users/hongy/OneDrive/Documents/GitHub/smart-paper/footprints/Hongyu.pretty")(options "")(descr ""))
 )
