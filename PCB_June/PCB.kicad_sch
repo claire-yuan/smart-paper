@@ -1207,156 +1207,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:MBR0530"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MBR0530"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBR0530_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBR0530_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FH34SRJ-24S-0.5SH(99):FH34SRJ-24S-0.5SH_99_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1931,6 +1781,322 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SymbolLibrary:SS0530_R1_00001"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SS0530_R1_00001"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Library:SOD-123_PNJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SS0530_R1_00001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SS0530_R1_00001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOD-123_PNJ SOD-123_PNJ-M SOD-123_PNJ-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS0530_R1_00001_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SS0530_R1_00001_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3093,16 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 77.47) (xy 36.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a83e112-1bba-4308-a179-0ed194bda335")
-	)
-	(wire
-		(pts
 			(xy 107.95 26.67) (xy 107.95 29.21)
 		)
 		(stroke
@@ -3303,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 64.77) (xy 25.4 64.77)
+			(xy 21.59 64.77) (xy 24.13 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3703,16 +3859,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 64.77) (xy 36.83 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a45c79f7-ea31-4ea2-bf53-506036b69c51")
-	)
-	(wire
-		(pts
 			(xy 34.29 41.91) (xy 34.29 50.8)
 		)
 		(stroke
@@ -3733,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 52.07 83.82)
+			(xy 52.07 80.01) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4070,6 +4216,26 @@
 			(type default)
 		)
 		(uuid "e95cd227-1af7-43be-82be-daa8fc0c202c")
+	)
+	(wire
+		(pts
+			(xy 34.29 64.77) (xy 36.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e964bac2-dcbe-49bc-99e3-2f4141ff4327")
+	)
+	(wire
+		(pts
+			(xy 36.83 80.01) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef726bb7-1d5b-48b3-b006-15736b671ee5")
 	)
 	(wire
 		(pts
@@ -5985,81 +6151,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0530")
-		(at 52.07 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81e7c0ff-497f-4de6-9fac-feaf2f659f45")
-		(property "Reference" "D3"
-			(at 57.404 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MBR0530"
-			(at 54.356 74.3586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 56.515 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 52.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 52.07 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "586b1f0d-321a-457b-89da-711bfb070ceb")
-		)
-		(pin "2"
-			(uuid "d3e6b4f8-3fd8-45ab-98ab-d6623c24f893")
-		)
-		(instances
-			(project ""
-				(path "/4d36fe0e-b49e-45a2-8e76-66c0323912e5"
-					(reference "D203")
-					(unit 1)
-				)
-			)
-			(project "EE 447"
-				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/9f33d424-8f8c-499b-911f-2b5f72ba0270"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 74.93 146.05 90)
 		(unit 1)
@@ -6224,53 +6315,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0530")
-		(at 36.83 73.66 270)
+		(lib_id "SymbolLibrary:SS0530_R1_00001")
+		(at 52.07 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "894732fc-9c03-4e85-b5ff-95602469ace0")
-		(property "Reference" "D2"
-			(at 39.37 72.0724 90)
+		(uuid "8c572d7a-8173-4c64-be87-9891e78e061d")
+		(property "Reference" "CR1"
+			(at 55.88 73.6599 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "MBR0530"
-			(at 39.37 74.6124 90)
+		(property "Value" "SS0530_R1_00001"
+			(at 55.88 76.1999 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 32.385 73.66 0)
+		(property "Footprint" "Library:SOD-123_PNJ"
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 36.83 73.66 0)
+		(property "Datasheet" "SS0530_R1_00001"
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 36.83 73.66 0)
+		(property "Description" ""
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,21 +6372,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "586b1f0d-321a-457b-89da-711bfb070ced")
+			(uuid "fae3283c-ca10-49f5-947e-2fb9e17bb7cf")
 		)
 		(pin "2"
-			(uuid "d3e6b4f8-3fd8-45ab-98ab-d6623c24f895")
+			(uuid "408efbe8-f1a7-40fb-b3a6-91436c53e7b9")
 		)
 		(instances
 			(project ""
-				(path "/4d36fe0e-b49e-45a2-8e76-66c0323912e5"
-					(reference "D202")
-					(unit 1)
-				)
-			)
-			(project "EE 447"
 				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/9f33d424-8f8c-499b-911f-2b5f72ba0270"
-					(reference "D2")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -7018,6 +7105,77 @@
 		)
 	)
 	(symbol
+		(lib_id "SymbolLibrary:SS0530_R1_00001")
+		(at 36.83 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbedadf1-3243-4684-aa8a-0356b8d09cbd")
+		(property "Reference" "CR2"
+			(at 40.64 73.6599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS0530_R1_00001"
+			(at 33.274 71.374 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SOD-123_PNJ"
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SS0530_R1_00001"
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3b416e7-40e7-47c7-aceb-bb0ccd704c63")
+		)
+		(pin "2"
+			(uuid "f756146e-57f1-45b1-92ad-8d6a4e55865e")
+		)
+		(instances
+			(project ""
+				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/9f33d424-8f8c-499b-911f-2b5f72ba0270"
+					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 49.53 33.02 0)
 		(mirror x)
@@ -7421,74 +7579,69 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0530")
-		(at 29.21 64.77 0)
+		(lib_id "SymbolLibrary:SS0530_R1_00001")
+		(at 34.29 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fab596f6-a30a-4059-9e7f-8fa86c65e875")
-		(property "Reference" "D1"
-			(at 28.8925 58.42 0)
+		(uuid "fcecc0da-0b3d-4ff6-bdad-ce9369dac3cf")
+		(property "Reference" "CR3"
+			(at 29.21 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "MBR0530"
-			(at 28.8925 60.96 0)
+		(property "Value" "SS0530_R1_00001"
+			(at 29.21 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 29.21 69.215 0)
+		(property "Footprint" "Library:SOD-123_PNJ"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SS0530_R1_00001"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 29.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 29.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44603380-d485-42de-abd8-7d87e0af669f")
 		)
 		(pin "1"
-			(uuid "4a5920cc-2e96-4a35-8afe-20f34fe66a88")
+			(uuid "a44805de-71f9-44d5-b44b-76a0ca823ab4")
+		)
+		(pin "2"
+			(uuid "5fe654b0-0d72-4946-852f-d4a931f74ee4")
 		)
 		(instances
 			(project ""
-				(path "/4d36fe0e-b49e-45a2-8e76-66c0323912e5"
-					(reference "D201")
-					(unit 1)
-				)
-			)
-			(project "EE 447"
 				(path "/8dcae476-bf02-4dea-8567-670805b7ab7c/9f33d424-8f8c-499b-911f-2b5f72ba0270"
-					(reference "D1")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
