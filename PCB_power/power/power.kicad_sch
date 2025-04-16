@@ -9823,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "S2B-PH-K-SLFSN"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S/926626?msockid=2a8a152c36276813238106c8370a6914"
 			(at 132.08 171.45 0)
 			(effects
 				(font
