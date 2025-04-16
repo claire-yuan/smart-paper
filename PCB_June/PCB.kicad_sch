@@ -4981,7 +4981,7 @@
 				)
 			)
 		)
-		(property "Value" "3"
+		(property "Value" "0.47"
 			(at 29.21 19.05 90)
 			(effects
 				(font
@@ -5073,7 +5073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0580-1255-6-99&productname=FH34SRJ-24S-0.5SH(99)&series=FH34SRJ&documenttype=2DDrawing&lang=en&documentid=0000990903"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Hirose-Connector/FH34SRJ-24S-0.5SH99?qs=vcbW%252B4%252BSTIpKBl5ap9J8Fw%3D%3D"
 			(at 49.53 -33.63 0)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7443845030100/24818486"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -7056,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BSS138/244210"
 			(at 54.61 29.21 0)
 			(effects
 				(font
