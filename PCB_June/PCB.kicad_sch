@@ -5164,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-inc/WSTM0805QLR470FNR/18795427"
 			(at 29.21 22.86 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT47K0/1757842"
 			(at 107.95 33.02 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/61302421121.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/61302421121?qs=PhR8RmCirEZkViXMpcFdWg%3D%3D&srsltid=AfmBOop_fFQ2_g8Ld3pw2KMKNhrAhxI88sAUzXO9IHa7Qle_StAjma5G"
 			(at 138.43 306.68 0)
 			(effects
 				(font
@@ -6352,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS0530_R1_00001"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS0530-R1-00001/14660025"
 			(at 52.07 69.85 0)
 			(effects
 				(font
@@ -6425,7 +6425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/S8050/17635323"
 			(at 119.38 48.26 0)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3401"
+		(property "Value" "PJA3401A"
 			(at 119.38 22.86 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 121.92 26.67 0)
 			(effects
 				(font
@@ -6749,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Panjit/PJA3401A_R1_00001?qs=sPbYRqrBIVk%2F%252BjzjJws01Q%3D%3D&srsltid=AfmBOoppGGn4NUPxGcch7cElXr9U5cPY8zTJL7fS2APxaADN3IHJET62"
 			(at 121.92 26.67 0)
 			(effects
 				(font
@@ -6980,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT47K0/1757842"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS0530_R1_00001"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS0530-R1-00001/14660025"
 			(at 36.83 80.01 0)
 			(effects
 				(font
@@ -7613,7 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SS0530_R1_00001"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS0530-R1-00001/14660025"
 			(at 34.29 64.77 0)
 			(effects
 				(font
