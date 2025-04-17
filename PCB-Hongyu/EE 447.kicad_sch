@@ -2450,10 +2450,6 @@
 		(uuid "fd382360-3b56-4b09-9fc3-3008266861ad")
 	)
 	(no_connect
-		(at 154.94 86.36)
-		(uuid "4ec71288-c501-4311-8db7-e104d18c2f7f")
-	)
-	(no_connect
 		(at 130.81 73.66)
 		(uuid "6f5088c4-fc1b-4440-b557-a187a35714a5")
 	)
@@ -2468,6 +2464,10 @@
 	(no_connect
 		(at 154.94 66.04)
 		(uuid "900cf645-826b-41c3-a1d6-06b92886238d")
+	)
+	(no_connect
+		(at 154.94 63.5)
+		(uuid "a72c5736-d4c1-4642-a728-212b6bf06dfe")
 	)
 	(no_connect
 		(at 130.81 68.58)
@@ -2530,6 +2530,16 @@
 			(type default)
 		)
 		(uuid "1147be2b-7e2a-4fe9-aa8c-eb8f4e6042bf")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d506c7-cec9-4423-9226-bf02d8b45265")
 	)
 	(wire
 		(pts
@@ -2943,16 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 171.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7a0891-7164-4e61-a893-baf9efdc2169")
-	)
-	(wire
-		(pts
 			(xy 110.49 115.57) (xy 99.06 115.57)
 		)
 		(stroke
@@ -3262,6 +3262,16 @@
 		(uuid "ff1fdb13-6456-4290-8e30-6e94871ecec8")
 	)
 	(label "PENIRQ"
+		(at 180.34 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42120eba-1b66-49e5-ae9f-c01fe61b4fa7")
+	)
+	(label "PENIRQ"
 		(at 181.61 115.57 180)
 		(effects
 			(font
@@ -3270,16 +3280,6 @@
 			(justify right bottom)
 		)
 		(uuid "53c874ba-21ab-49be-84b1-c65875312543")
-	)
-	(label "PENIRQ"
-		(at 171.45 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55679c3b-fb86-4947-a6ad-dd626ea39808")
 	)
 	(global_label "MISO"
 		(shape input)
