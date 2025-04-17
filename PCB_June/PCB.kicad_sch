@@ -3295,10 +3295,6 @@
 		(uuid "9ae17d3f-f45c-4906-8f36-fb9ca10a1dd1")
 	)
 	(no_connect
-		(at 119.38 129.54)
-		(uuid "aa554198-76e4-48c7-a733-985b146c395d")
-	)
-	(no_connect
 		(at 119.38 116.84)
 		(uuid "b648d46a-215e-43ff-81a6-78473ea5a2e3")
 	)
@@ -3771,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "6aec392b-fabe-421b-ae48-e007282e25e7")
+	)
+	(wire
+		(pts
+			(xy 111.76 129.54) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70529423-01e4-40ae-b7c5-8d6b8901013a")
 	)
 	(wire
 		(pts
@@ -4621,6 +4627,16 @@
 			(justify left bottom)
 		)
 		(uuid "467b2fa2-9d6a-406f-90d2-23b55a2bb9e6")
+	)
+	(label "3V3_OUT"
+		(at 111.76 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46de99cd-a2a0-4a8e-8728-e7039c16890c")
 	)
 	(label "RESE"
 		(at 46.99 22.86 0)
