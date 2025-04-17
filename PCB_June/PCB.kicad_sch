@@ -6414,7 +6414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 124.46 50.165 0)
 			(effects
 				(font
@@ -7214,7 +7214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BSS138/244210"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/onsemi-Fairchild/BSS138?qs=HK%252BeIG1iaahCeqBvjB4arg%3D%3D&srsltid=AfmBOoqSNHRxNY05tuDQ32Q_ya6yO_gO9lrnV_3A-Ol45sM-SCPd4I5t"
 			(at 54.61 29.21 0)
 			(effects
 				(font
