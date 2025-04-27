@@ -1,64 +1,32 @@
-import asyncio
-from bleak import BleakScanner, BleakClient
+/**
+ *  @filename   :   imagedata.cpp
+ *  @brief      :   data file for epd demo
+ *
+ *  Copyright (C) Waveshare     August 16 2017
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documnetation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to  whom the Software is
+ * furished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS OR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
 
-# Source: https://getwavecake.com/blog/getting-started-with-bluetooth-and-python-part-2/
-
-class DeviceBle():
-    
-    def __init__(self):
-        self.client = None
-        self.SERVICE_UUID = "22222222-2222-2222-2222-222222222222"
-        self.CHARACTERISTIC_UUID = "66666666-6666-6666-6666-666666666666"
-
-    async def connect(self):
-        print("Scanning for ESP32...")
-        devices = await BleakScanner.discover()
-        esp = next((d for d in devices if "ESP32C3-BLE" in (d.name or "")), None)
-        if esp is not None:
-            try:
-                print("Found device at address: %s" % (esp))
-                print("Attempting to connect...")
-                self.client = BleakClient(esp)
-                await self.client.connect()
-                print("Connected")
-            except:
-                raise Exception("Failed to connect")
-        else:
-            raise Exception("Did not find ESP")
-    
-    async def disconnect(self):
-        try:
-            print("Disconnecting...")
-            await self.client.disconnect()
-            print("Disconnected!")
-        except:
-            raise Exception("Warning: Failed to disconnect. Check for hanging connection")
-        
-    async def read_characteristic(self):
-        while True:
-            try:
-                data = await self.client.read_gatt_char(self.CHARACTERISTIC_UUID)
-                print("Received:", data)
-            except:
-                raise Exception("Failed to read characteristic.")
-            
-            await asyncio.sleep(1)
-
-
-    async def send_message(self, message):
-        CHUNK_SIZE = 20  # Number of bytes to send at once
-
-        print(message)
-        for i in range(0, len(message), CHUNK_SIZE):
-            chunk = message[i:i + CHUNK_SIZE] # Python handles slicing well so don't need to work on index overflow
-            print(chunk)
-
-            await self.client.write_gatt_char(self.CHARACTERISTIC_UUID, bytes(chunk))
-            await asyncio.sleep(0.01)  # Avoid BLE overload
-
-
-async def main():
-    img = [0X00,0X01,0X02,0X03,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
+ #include "imagedata.h"
+ 
+unsigned char IMAGE_DATA[3090] = { //0X00,0X01,0XF0,0X00,0X67,0X00,
+    0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
@@ -250,20 +218,5 @@ async def main():
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
     0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
-    0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X07,
-    0X08,0X09] # Currently 3090 chars, Insert June's code
-
-    device = DeviceBle()
-    try: 
-        await device.connect()
-        
-        await device.send_message(img)
-
-        await device.read_characteristic()
-
-    except Exception as e:
-        print(e)
-
-
-
-asyncio.run(main())
+    0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,
+    0X00,0X00,};
