@@ -512,7 +512,7 @@
       "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/EE 447.step",
       "svg": "",
       "vrml": ""
     },

@@ -26,6 +26,7 @@ const int TOUCH_N_SAMPLES = 3;
 const int TOUCH_SAMPLE_DELAY = 1; // ms
 
 // TOUCH OVERLAY ORIGINAL COORDINATES BEFORE MAPPING
+/*
 int BL_X = 790;
 int BL_Y = 790;
 
@@ -37,6 +38,18 @@ int TL_Y = 1300;
 
 int TR_X = 1410;
 int TR_Y = 1430;
+*/
+int BL_X = 726;
+int BL_Y = 826;
+
+int BR_X = 608;
+int BR_Y = 1192;
+
+int TL_X = 1162;
+int TL_Y = 662;
+
+int TR_X = 1345;
+int TR_Y = 1407;
 
 
 // Constructor
