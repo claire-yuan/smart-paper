@@ -5,12 +5,24 @@
 #include "touch.h"
 #include "epdpaint.h"
 
+int BL_X = 0;
+int BL_Y = 0;
+
+int BR_X = 0;
+int BR_Y = 0;
+
+int TL_X = 0;
+int TL_Y = 0;
+
+int TR_X = 0;
+int TR_Y = 0;
+
 int counter = 0;
-int x_offset = 0;
-int y_offset = 0;
+int x_offset = 450;
+int y_offset = 500;
 int x_prev = 0;
 int y_prev = 0;
-int radius = 2;
+int radius = 0;
 bool refreshed = true;
 
 unsigned char* image = (unsigned char *)malloc(EPD_WIDTH * EPD_HEIGHT / 8);
@@ -44,20 +56,60 @@ void setup() {
 
   Serial.print("e-Paper Clear\r\n ");
   epd.Clear();
-
-  epd.Sleep();
-
   
   touch.touch_init();
   circ.DrawFilledCircle(radius+1, radius+1, radius, 0);
   paint.Clear(1);
-
-  Serial.print("e-Paper init \r\n ");
-  if (epd.Init() != 0) {
-      Serial.print("e-Paper init failed\r\n ");
-      return;
+  /*
+  Serial.print("Touch Top Left Corner \r\n");
+  while(touch.get_X_position() == 0 && touch.get_Y_position() == 2047){
   }
+  TL_X = touch.get_X_position();
+  TL_Y = touch.get_Y_position();
+  delay(1000);
 
+  Serial.print("Touch Top Right Corner \r\n");
+  while(touch.get_X_position() == 0 && touch.get_Y_position() == 2047){
+  }
+  TR_X = touch.get_X_position();
+  TR_Y = touch.get_Y_position();
+  delay(1000);
+
+  Serial.print("Touch Bottom Left Corner \r\n");
+  while(touch.get_X_position() == 0 && touch.get_Y_position() == 2047){
+  }
+  BL_X = touch.get_X_position();
+  BL_Y = touch.get_Y_position();
+  delay(1000);
+
+  Serial.print("Touch Bottom Right Corner \r\n");
+  while(touch.get_X_position() == 0 && touch.get_Y_position() == 2047){
+  }
+  BR_X = touch.get_X_position();
+  BR_Y = touch.get_Y_position();
+  delay(1000);
+
+  Serial.print("TL: ");
+  Serial.print(TL_X);
+  Serial.print(",");
+  Serial.println(TL_Y);
+
+  Serial.print("TR: ");
+  Serial.print(TR_X);
+  Serial.print(",");
+  Serial.println(TR_Y);
+
+  Serial.print("BL: ");
+  Serial.print(BL_X);
+  Serial.print(",");
+  Serial.println(BL_Y);
+
+  Serial.print("BR: ");
+  Serial.print(BR_X);
+  Serial.print(",");
+  Serial.println(BR_Y);
+  */
+  
   Serial.print("End of setup function\r\n ");
   
 }
@@ -67,8 +119,8 @@ void loop() {
   int x_pos = touch.get_X_position();
   int y_pos = touch.get_Y_position();
 
-    x_pos = x_pos - x_offset - radius;
-    y_pos = y_pos - y_offset - radius;
+   x_pos = x_pos - x_offset - radius;
+   y_pos = y_pos - y_offset - radius;
 
 if(x_pos > EPD_WIDTH){
     x_pos = EPD_WIDTH;
@@ -92,7 +144,7 @@ if(y_pos < 0){
   if(x_pos != 0 && (x_pos != x_prev || y_pos != y_prev)){
     paint.DrawFilledCircle(x_pos, y_pos, radius, 0);
     //epd.Displaypart(circle, x_pos-x_offset-radius, y_pos-y_offset-radius, 2*radius+1, 2*radius+1);
-   refreshed = false;
+    refreshed = false;
     x_prev = x_pos;
     y_prev = y_pos;
     counter++;
@@ -103,12 +155,12 @@ if(y_pos < 0){
      refreshed = true;
      counter = 0;
   }
-  /*
+
+/*
   if(counter > 10){
     epd.Clear();
     epd.Displaypart(image, 0, 0, EPD_WIDTH, EPD_HEIGHT);
     counter = 0;
   }
-  */
-
+ */
 }

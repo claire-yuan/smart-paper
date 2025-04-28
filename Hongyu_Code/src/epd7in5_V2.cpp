@@ -228,8 +228,8 @@
      SendData(0x00);
      SendData(0x00);
  
-     SetLut_by_host(LUT_VCOM_7IN5_V2, LUT_WW_7IN5_V2, LUT_BW_7IN5_V2, LUT_WB_7IN5_V2, LUT_BB_7IN5_V2);
-     //SetLut_by_host(Partial_lut_vcom1, Partial_lut_ww1, Partial_lut_bw1, Partial_lut_wb1, Partial_lut_bb1);
+     //SetLut_by_host(LUT_VCOM_7IN5_V2, LUT_WW_7IN5_V2, LUT_BW_7IN5_V2, LUT_WB_7IN5_V2, LUT_BB_7IN5_V2);
+     SetLut_by_host(Partial_lut_vcom1, Partial_lut_ww1, Partial_lut_bw1, Partial_lut_wb1, Partial_lut_bb1);
      return 0;
  }
  
@@ -350,7 +350,7 @@
  }
  
  void Epd::Clear(void) {
-     
+    SetLut_by_host(LUT_VCOM_7IN5_V2, LUT_WW_7IN5_V2, LUT_BW_7IN5_V2, LUT_WB_7IN5_V2, LUT_BB_7IN5_V2); 
      // SendCommand(0x10);
      // for(unsigned long i=0; i<height*width; i++) {
      //     SendData(0x00);
@@ -362,6 +362,7 @@
      SendCommand(0x12);
      DelayMs(100);
      WaitUntilIdle();
+     SetLut_by_host(Partial_lut_vcom1, Partial_lut_ww1, Partial_lut_bw1, Partial_lut_wb1, Partial_lut_bb1);
  }
  
  
