@@ -260,7 +260,7 @@
          busy = DigitalRead(busy_pin);
      }while(busy == 0);
      Serial.print("e-Paper Busy Release\r\n ");
-     DelayMs(20);
+     DelayMs(0);
  }
  
  /**
