@@ -3,18 +3,30 @@
 #include "epd7in5_V2.h"
 #include "imagedata.h"
 
+Epd epd;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
 
   
-  Epd epd;
+  //Epd epd;
+  
   Serial.print("e-Paper init \r\n ");
   if (epd.Init() != 0) {
       Serial.print("e-Paper init failed\r\n ");
       return;
   }
+
+/*
+  Serial.print("e-Paper init \r\n ");
+  
+  while (epd.Init() != 0) {
+    Serial.print("e-Paper init failed\r\n ");
+    delay(500);
+  }
+
+  */
 
   delay(1000);
 
@@ -28,7 +40,7 @@ void setup() {
   delay(5000);
 
   Serial.print("e-Paper Clear\r\n ");
-  //epd.Clear();
+  epd.Clear();
 
   epd.Sleep();
 
@@ -48,5 +60,15 @@ void update_screen(Epd epd) {
 }
 
 void loop() {
+
+
+  Serial.print("New Data\r\n ");
+  // epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  delay(50);
+  epd.Clear();
+  delay(50);
+
+
 
 }
