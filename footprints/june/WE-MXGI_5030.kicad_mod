@@ -1,56 +1,231 @@
-
-(footprint WE-MXGI_5030 (layer F.Cu) (tedit 67FB4EBA)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.0 -4.135 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value WE-MXGI_5030 (at 0.0 3.865 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -1.95 0.0) (size 1.7 5.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 1.95 0.0) (size 1.7 5.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -2.7 -2.7) (end 2.7 -2.7) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.7 -2.7) (end 2.7 2.7) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.7 2.7) (end -2.7 2.7) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.7 2.7) (end -2.7 -2.7) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.7 -2.8) (end 0.7 -2.8) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.7 2.8) (end 0.7 2.8) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy -3.0 -3.0)
-      (xy 3.0 -3.0)
-      (xy 3.0 3.0)
-      (xy -3.0 3.0)
-    ) (layer F.CrtYd) (width 0.1)
-  )
-  (fp_circle (center -3.5 -2.5) (end -3.4 -2.5) (layer F.SilkS) (width 0.4))
-  (zone (net 0) (net_name "") (layer F.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -1.1 -2.8)
-        (xy 1.1 -2.8)
-        (xy 1.1 2.8)
-        (xy -1.1 2.8)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layers *.Cu) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01)
-    (keepout (tracks allowed) (vias not_allowed) (pads allowed ) (copperpour allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -1.1 -2.8)
-        (xy 1.1 -2.8)
-        (xy 1.1 2.8)
-        (xy -1.1 2.8)
-      )
-    )
-  )
+(footprint "WE-MXGI_5030"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.135 0)
+		(layer "F.SilkS")
+		(uuid "ab1edd2e-325e-4068-a2c6-a0d0facce472")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-MXGI_5030"
+		(at 0 3.865 0)
+		(layer "F.Fab")
+		(uuid "60a0ba35-bab0-43f9-aa5a-a2893588719a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3869631-67e2-4425-8a42-9e7265995f30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "717fcff0-3a0f-485f-91c2-330ba5d44861")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -2.8)
+		(end 0.7 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48136b13-46a3-411f-8530-528876a967d4")
+	)
+	(fp_line
+		(start -0.7 2.8)
+		(end 0.7 2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae9db256-775a-418d-b014-90f2f4266d43")
+	)
+	(fp_circle
+		(center -3.5 -2.5)
+		(end -3.4 -2.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b5071f7d-7e35-4635-bbf8-591af83120df")
+	)
+	(fp_poly
+		(pts
+			(xy -3 -3) (xy 3 -3) (xy 3 3) (xy -3 3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "f2d109c8-0f4f-4218-8ea6-9c1d38dc96dd")
+	)
+	(fp_line
+		(start -2.7 -2.7)
+		(end 2.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e1fbd05-49ad-4e17-9607-bcebdded1c30")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end -2.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b386f0dc-d1d3-4d15-bb68-5a1960fa15fc")
+	)
+	(fp_line
+		(start 2.7 -2.7)
+		(end 2.7 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "577a84b2-3ae2-4e0f-bb57-8f7892b56c81")
+	)
+	(fp_line
+		(start 2.7 2.7)
+		(end -2.7 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07f676e2-334b-411f-96a4-6c96e347efbf")
+	)
+	(pad "1" smd rect
+		(at -1.95 0)
+		(size 1.7 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "fc20acb8-3721-40d6-8086-25dea17de3fd")
+	)
+	(pad "2" smd rect
+		(at 1.95 0)
+		(size 1.7 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "eff4041f-6703-48ec-b648-3daabdcd82e2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "fae48296-9056-4645-8eee-cd1578123e25")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.1 -2.8) (xy 1.1 -2.8) (xy 1.1 2.8) (xy -1.1 2.8)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "046d52dd-aef1-4aed-9a7e-77f8dccd7226")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.1 -2.8) (xy 1.1 -2.8) (xy 1.1 2.8) (xy -1.1 2.8)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/STP_WE-MXGI_5030_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

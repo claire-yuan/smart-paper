@@ -18,14 +18,14 @@ int TL_Y = 0;
 int TR_X = 0;
 int TR_Y = 0;
 
-double h11 = 0.9734;
-double h12 = -0.2997;
-double h13 = 61.1876;
-double h21 = 0.2997;
-double h22 = 0.9734;
-double h23 = -859.1649;
-double h31 = 0;
-double h32 = 0;
+double h11 = -0.5753;
+double h12 = -0.1164;
+double h13 = 1003.6;
+double h21 = -0.0078;
+double h22 = -0.4944;
+double h23 = 806.1106;
+double h31 = -0.00016387;
+double h32 = -0.00056141;
 double h33 = 1;
 
 int counter = 0;
@@ -73,10 +73,10 @@ void setup() {
   paint.Clear(1);
   
   if(calibrate == true){
-    //paint.DrawFilledCircle(10, 10, 5, 0);
+    paint.DrawFilledCircle(10, 10, 5, 0);
     paint.DrawFilledCircle(10, 470, 5, 0);
     paint.DrawFilledCircle(790, 10, 5, 0);
-    //paint.DrawFilledCircle(790, 470, 5, 0);
+    paint.DrawFilledCircle(790, 470, 5, 0);
     epd.Displaypart(image, 0, 0, EPD_WIDTH, EPD_HEIGHT);
     
     Serial.print("Touch Top Left Corner \r\n");
@@ -137,10 +137,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   int x = touch.get_X_position();
   int y = touch.get_Y_position();
-  int norm = (h31*x + h32*y + h33);
+  int norm = h31*x + h32*y + h33;
    int x_pos = (h11*x + h12*y + h13)/norm;
    int y_pos = (h21*x + h22*y + h23)/norm;
-
+    //x_pos = x_pos - x_offset;
    /*
 if(x_pos > EPD_WIDTH){
     x_pos = EPD_WIDTH;
@@ -156,9 +156,9 @@ if(y_pos < 0){
 }
 */
  if (calibrate == false) {
-    //Serial.print(x_pos);
-    //Serial.print(",");
-    //Serial.println(y_pos);
+    Serial.print(x_pos);
+    Serial.print(",");
+    Serial.println(y_pos);
   }
 
   if(x != 0 && (x_pos != x_prev || y_pos != y_prev)){

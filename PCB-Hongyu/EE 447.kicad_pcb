@@ -6573,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TSC2046IPWR/562831"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8c3fb0f-58e8-4f26-bdc4-6053308fd53e")
@@ -6585,7 +6585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b294db3-6bd8-4749-a346-5e3737068392")
@@ -7401,7 +7401,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.0734 -3.773601 270)
+			(at -3.0734 -3.773601 90)
 			(layer "F.SilkS")
 			(uuid "e25e6a99-57fe-452c-ab6e-5e0761f36771")
 			(effects
@@ -7424,7 +7424,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.0734 -3.773601 270)
+			(at -3.0734 -3.773601 90)
 			(layer "F.Fab")
 			(uuid "f42f96c3-1696-41c4-9226-4252436a0c66")
 			(effects
@@ -7591,6 +7591,17 @@
 			(uuid "de83c556-8cf4-48cd-bd1b-cca0492f81bc")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/hongy/OneDrive/Documents/GitHub/smart-paper/models/TSC2046IPWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -12040,6 +12051,17 @@
 			(uuid "5d1acf80-ae75-4542-9a9a-5c9291466be3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/hongy/OneDrive/Documents/GitHub/smart-paper/models/FPC4pin.stp"
+			(offset
+				(xyz 0 2.794 1.27)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -22183,7 +22205,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "57.4400 mm"
+		(gr_text "2.2614 in"
 			(at 214.32 91.052 0)
 			(layer "Edge.Cuts")
 			(uuid "0744aed3-22f1-46b6-9fb8-0dd44dd551b4")
@@ -22220,7 +22242,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4.5173 mm"
+		(gr_text "0.1778 in"
 			(at 187.858668 97.783 0)
 			(layer "Edge.Cuts")
 			(uuid "1862c2e5-f954-4680-a96b-1756bf98f769")
@@ -22257,7 +22279,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8.0900 mm"
+		(gr_text "0.3185 in"
 			(at 238.995 99.307 0)
 			(layer "Edge.Cuts")
 			(uuid "2479de74-0ff1-44d0-ac9c-24979816b85b")
@@ -22294,7 +22316,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5.8200 mm"
+		(gr_text "0.2291 in"
 			(at 180.206 106.31 90)
 			(layer "Edge.Cuts")
 			(uuid "59bbf575-ad70-48e4-becc-af5814d42f2a")
@@ -22331,7 +22353,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "5.8200 mm"
+		(gr_text "0.2291 in"
 			(at 244.976 106.31 90)
 			(layer "Edge.Cuts")
 			(uuid "7aa21a28-6e53-4091-a154-cd4f21951127")
@@ -22368,7 +22390,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100.0000 mm"
+		(gr_text "3.9370 in"
 			(at 257.803 153.4 90)
 			(layer "Edge.Cuts")
 			(uuid "a3401051-60b3-47d5-9747-4532d8ca0570")
@@ -22405,7 +22427,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8.0900 mm"
+		(gr_text "0.3185 in"
 			(at 238.995 204.717 0)
 			(layer "Edge.Cuts")
 			(uuid "bb8cecfd-6699-4b04-ab58-ac75399f8230")
@@ -22442,7 +22464,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "6.5500 mm"
+		(gr_text "0.2579 in"
 			(at 247.897 200.125 90)
 			(layer "Edge.Cuts")
 			(uuid "ea8b7df6-5f83-48f6-8ee9-ba33cedb1748")

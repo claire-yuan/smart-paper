@@ -22,8 +22,8 @@
 const bool MAP_POSITION_VALUES = false;
 
 // SETTINGS FOR TSC2046 SAMPLING
-const int TOUCH_N_SAMPLES = 10;
-const int TOUCH_SAMPLE_DELAY = 0; // ms
+const int TOUCH_N_SAMPLES = 3;
+const int TOUCH_SAMPLE_DELAY = 1; // ms
 
 // TOUCH OVERLAY ORIGINAL COORDINATES BEFORE MAPPING
 /*
@@ -78,8 +78,8 @@ int Touch::get_X_position(void) {
     digitalWrite(CS_TOUCH, HIGH);
 
     // Add position value to sum (later to be averaged)
-    x_sum += (byte1 << 4) | (byte2 >> 4); 
-
+    x_sum += (byte1 << 5) | (byte2 >> 3); 
+  
    delay(TOUCH_SAMPLE_DELAY); 
   }
   return x_sum/TOUCH_N_SAMPLES;
@@ -103,7 +103,7 @@ int Touch::get_Y_position(void) {
     digitalWrite(CS_TOUCH, HIGH);
 
     // Add position value to sum (later to be averaged)
-    y_sum += (byte1 << 4) | (byte2 >> 4);
+    y_sum += (byte1 << 5) | (byte2 >> 3);
 
     delay(TOUCH_SAMPLE_DELAY);
   }  

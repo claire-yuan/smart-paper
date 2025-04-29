@@ -4428,26 +4428,6 @@
 		)
 		(uuid "0348d666-97c6-4bd0-97bb-a1b13348b6f5")
 	)
-	(label "GDR"
-		(at 40.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0385998c-a430-4b14-a4e8-654d5bdf9530")
-	)
-	(label "RESE"
-		(at 46.99 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "071a122d-dcd9-45c4-a19a-d4ba22fa9659")
-	)
 	(label "SUB24"
 		(at 111.76 139.7 0)
 		(effects
@@ -4497,16 +4477,6 @@
 			(justify left bottom)
 		)
 		(uuid "12b37b39-3909-4fe2-8769-cb5c9d4989f2")
-	)
-	(label "RESE"
-		(at 46.99 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13bddf71-7ba4-4478-86e5-005b920b628f")
 	)
 	(label "BS"
 		(at 62.23 120.65 0)
@@ -4568,16 +4538,6 @@
 		)
 		(uuid "314da1e8-73ee-4dc3-9f7d-0c8c0facd88a")
 	)
-	(label "GDR"
-		(at 40.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31536ebc-52c1-41b9-b745-f8c8945c8911")
-	)
 	(label "GND"
 		(at 127 60.96 0)
 		(effects
@@ -4638,16 +4598,6 @@
 		)
 		(uuid "46de99cd-a2a0-4a8e-8728-e7039c16890c")
 	)
-	(label "RESE"
-		(at 46.99 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e9d5abb-2809-443a-84b3-7e01e0b80171")
-	)
 	(label "EPD_DC"
 		(at 60.96 128.27 0)
 		(effects
@@ -4657,16 +4607,6 @@
 			(justify left bottom)
 		)
 		(uuid "50612f81-a281-4bd4-94f8-ca82594cdf79")
-	)
-	(label "GDR"
-		(at 40.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54a80025-d47b-44ca-8d29-dc7c2820f3a7")
 	)
 	(label "GND"
 		(at 127 60.96 0)

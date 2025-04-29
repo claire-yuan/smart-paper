@@ -22,7 +22,7 @@
 		(effects
 			(font
 				(size 0.500253 0.500253)
-				(thickness 0.15)
+				(thickness 0.125063)
 			)
 		)
 	)
@@ -161,4 +161,15 @@
 		(uuid "cc61b876-d3d9-4838-9346-690a7633a95f")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/S8050--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

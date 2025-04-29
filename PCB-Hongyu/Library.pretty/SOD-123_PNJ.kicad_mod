@@ -444,4 +444,15 @@
 		(uuid "f23dd5e6-0419-4043-a14e-5ff9b234f4de")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/SOD-123_PNJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
