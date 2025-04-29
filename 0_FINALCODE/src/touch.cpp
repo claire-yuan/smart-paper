@@ -78,7 +78,7 @@ int Touch::get_X_position(void) {
     digitalWrite(CS_TOUCH, HIGH);
 
     // Add position value to sum (later to be averaged)
-    x_sum += (byte1 << 4) | (byte2 >> 4); 
+    x_sum += (byte1 << 5) | (byte2 >> 3); 
 
    //delay(TOUCH_SAMPLE_DELAY); 
   }
@@ -103,7 +103,7 @@ int Touch::get_Y_position(void) {
     digitalWrite(CS_TOUCH, HIGH);
 
     // Add position value to sum (later to be averaged)
-    y_sum += (byte1 << 4) | (byte2 >> 4);
+    y_sum += (byte1 << 5) | (byte2 >> 3);
 
     //delay(TOUCH_SAMPLE_DELAY);
   }  

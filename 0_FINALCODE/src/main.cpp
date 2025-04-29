@@ -68,8 +68,10 @@ void setup() {
   Serial.begin(115200);
   delay(500);
 
+  
+  touch.touch_init();
  
-  Serial.print("e-Paper init \r\n ");
+  /* Serial.print("e-Paper init \r\n ");
   if (epd.Init() != 0) {
       Serial.print("e-Paper init failed\r\n ");
       return;
@@ -87,9 +89,8 @@ void setup() {
   Serial.print("e-Paper Clear\r\n ");
   epd.Clear();
   
-  touch.touch_init();
   circ.DrawFilledCircle(radius+1, radius+1, radius, 0);
-  paint.Clear(1);
+  paint.Clear(1); */
   /*
   Serial.print("Touch Top Left Corner \r\n");
   while(touch.get_X_position() == 0 && touch.get_Y_position() == 2047){
@@ -141,7 +142,7 @@ void setup() {
   */
   
   // ------------------- BLE INIT ----------------------------
-  Serial.println("BLE Init");
+  /* Serial.println("BLE Init");
   
   BLEDevice::init("ESP32C3-BLE");
   BLEServer *pServer = BLEDevice::createServer();
@@ -161,7 +162,7 @@ void setup() {
   // pCharacteristic->setValue("Hello from the ESP32C3"); // send message from ESP32 to laptop
   Serial.println("BLE Server started, waiting for client...");
 
-
+  */
   // END
   Serial.print("End of setup function\r\n ");
 }
@@ -171,26 +172,26 @@ void loop() {
   int x_pos = touch.get_X_position();
   int y_pos = touch.get_Y_position();
 
-   x_pos = x_pos - x_offset - radius;
-   y_pos = y_pos - y_offset - radius;
+  //  x_pos = x_pos - x_offset - radius;
+  //  y_pos = y_pos - y_offset - radius;
 
-  if(x_pos > EPD_WIDTH){
-      x_pos = EPD_WIDTH;
-    }
-  if(y_pos > EPD_HEIGHT){
-      y_pos = EPD_HEIGHT;
-    }
-  if(x_pos < 0){
-    x_pos = 0;
-  }
-  if(y_pos < 0){
-    y_pos = 0;
-  }
+  // if(x_pos > EPD_WIDTH){
+  //     x_pos = EPD_WIDTH;
+  //   }
+  // if(y_pos > EPD_HEIGHT){
+  //     y_pos = EPD_HEIGHT;
+  //   }
+  // if(x_pos < 0){
+  //   x_pos = 0;
+  // }
+  // if(y_pos < 0){
+  //   y_pos = 0;
+  // }
 
   //if (MAP_POSITION_VALUES == false) {
       Serial.print(x_pos);
       Serial.print(",");
-      Serial.println(y_pos);
+      Serial.println(y_pos);  
     //}
 
     if(x_pos != 0 && (x_pos != x_prev || y_pos != y_prev)){
