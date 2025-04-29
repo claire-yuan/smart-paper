@@ -71,6 +71,7 @@ int Touch::get_X_position(void) {
 
     // Send and receive data via SPI
     SPI.transfer(0b11010000);
+    delay(0.1);
     byte byte1 = SPI.transfer(0);
     byte byte2 = SPI.transfer(0);
     
@@ -96,6 +97,7 @@ int Touch::get_Y_position(void) {
 
     // Send and receive data via SPI
     SPI.transfer(0b10010000);
+    delay(0.1);
     byte byte1 = SPI.transfer(0);
     byte byte2 = SPI.transfer(0);
     

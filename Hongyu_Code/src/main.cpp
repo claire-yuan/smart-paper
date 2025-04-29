@@ -18,14 +18,14 @@ int TL_Y = 0;
 int TR_X = 0;
 int TR_Y = 0;
 
-double h11 = -0.5753;
-double h12 = -0.1164;
-double h13 = 1003.6;
-double h21 = -0.0078;
-double h22 = -0.4944;
-double h23 = 806.1106;
-double h31 = -0.00016387;
-double h32 = -0.00056141;
+double h11 = 0.187838426612364;
+double h12 = -0.0302965812257234;
+double h13 = -432.524997491713;
+double h21 = -0.0553569869178073;
+double h22 = 0.159965342959298;
+double h23 = -318.143864887562;
+double h31 = -0.000474353732075412;
+double h32 = -0.000312243907565151;
 double h33 = 1;
 
 int counter = 0;
@@ -33,7 +33,7 @@ int x_offset = 0;
 int y_offset = 0;
 int x_prev = 0;
 int y_prev = 0;
-int radius = 0;
+int radius = 2;
 bool refreshed = true;
 
 unsigned char* image = (unsigned char *)malloc(EPD_WIDTH * EPD_HEIGHT / 8);
@@ -137,9 +137,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   int x = touch.get_X_position();
   int y = touch.get_Y_position();
-  int norm = h31*x + h32*y + h33;
-   int x_pos = (h11*x + h12*y + h13)/norm;
-   int y_pos = (h21*x + h22*y + h23)/norm;
+  double norm = h31*x + h32*y + h33;
+  int x_pos = static_cast<int>((h11*x + h12*y + h13) / norm + 0.5);
+  int y_pos = static_cast<int>((h21*x + h22*y + h23) / norm + 0.5);
+
     //x_pos = x_pos - x_offset;
    /*
 if(x_pos > EPD_WIDTH){
@@ -155,11 +156,13 @@ if(y_pos < 0){
   y_pos = 0;
 }
 */
- if (calibrate == false) {
-    Serial.print(x_pos);
-    Serial.print(",");
-    Serial.println(y_pos);
-  }
+  Serial.print(x);
+  Serial.print(",");
+  Serial.print(y);
+  Serial.print(",");
+  Serial.print(x_pos);
+  Serial.print(",");
+  Serial.println(y_pos);
 
   if(x != 0 && (x_pos != x_prev || y_pos != y_prev)){
     paint.DrawFilledCircle(x_pos, y_pos, radius, 0);
