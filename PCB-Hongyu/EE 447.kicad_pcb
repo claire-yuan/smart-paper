@@ -2233,6 +2233,17 @@
 			(uuid "d34d022e-ab73-41fe-8f78-67cd0674ad17")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/SOD-123_PNJ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -3737,6 +3748,17 @@
 			(uuid "8319e68f-da0e-4cb6-aa1f-68402a589058")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/ESP32-C3-DEVKITM-1.STEP"
+			(offset
+				(xyz 11.5 -17.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -7591,7 +7613,7 @@
 			(uuid "de83c556-8cf4-48cd-bd1b-cca0492f81bc")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hongy/OneDrive/Documents/GitHub/smart-paper/models/TSC2046IPWR.step"
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/TSC2046IPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8766,6 +8788,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/STP_WE-MXGI_5030_rev1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -11768,6 +11801,17 @@
 			(uuid "60059981-d829-476d-9fac-670097895be3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/SOD-123_PNJ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Hongyu:CON4_SMT-RA_FCC-FPC2"
 		(layer "F.Cu")
@@ -12051,7 +12095,7 @@
 			(uuid "5d1acf80-ae75-4542-9a9a-5c9291466be3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/hongy/OneDrive/Documents/GitHub/smart-paper/models/FPC4pin.stp"
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/FPC4pin.stp"
 			(offset
 				(xyz 0 2.794 1.27)
 			)
@@ -12498,7 +12542,7 @@
 			(effects
 				(font
 					(size 0.500253 0.500253)
-					(thickness 0.15)
+					(thickness 0.125063)
 				)
 			)
 		)
@@ -12763,6 +12807,17 @@
 			(uuid "a1a27dec-a97a-41e4-9dda-69227d39a9e5")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/S8050--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -18752,6 +18807,17 @@
 			(uuid "2bf2c036-93c9-4148-9191-311d1b2efdbd")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/yuanc/OneDrive - University of Southern California/Documents/COLLEGE/2025-SPRING/ee447/smart-paper/models/SOD-123_PNJ.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -22205,7 +22271,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2.2614 in"
+		(gr_text "57.4400 mm"
 			(at 214.32 91.052 0)
 			(layer "Edge.Cuts")
 			(uuid "0744aed3-22f1-46b6-9fb8-0dd44dd551b4")
@@ -22242,7 +22308,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.1778 in"
+		(gr_text "4.5173 mm"
 			(at 187.858668 97.783 0)
 			(layer "Edge.Cuts")
 			(uuid "1862c2e5-f954-4680-a96b-1756bf98f769")
@@ -22279,7 +22345,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.3185 in"
+		(gr_text "8.0900 mm"
 			(at 238.995 99.307 0)
 			(layer "Edge.Cuts")
 			(uuid "2479de74-0ff1-44d0-ac9c-24979816b85b")
@@ -22316,7 +22382,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.2291 in"
+		(gr_text "5.8200 mm"
 			(at 180.206 106.31 90)
 			(layer "Edge.Cuts")
 			(uuid "59bbf575-ad70-48e4-becc-af5814d42f2a")
@@ -22353,7 +22419,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.2291 in"
+		(gr_text "5.8200 mm"
 			(at 244.976 106.31 90)
 			(layer "Edge.Cuts")
 			(uuid "7aa21a28-6e53-4091-a154-cd4f21951127")
@@ -22390,7 +22456,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3.9370 in"
+		(gr_text "100.0000 mm"
 			(at 257.803 153.4 90)
 			(layer "Edge.Cuts")
 			(uuid "a3401051-60b3-47d5-9747-4532d8ca0570")
@@ -22427,7 +22493,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.3185 in"
+		(gr_text "8.0900 mm"
 			(at 238.995 204.717 0)
 			(layer "Edge.Cuts")
 			(uuid "bb8cecfd-6699-4b04-ab58-ac75399f8230")
@@ -22464,7 +22530,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.2579 in"
+		(gr_text "6.5500 mm"
 			(at 247.897 200.125 90)
 			(layer "Edge.Cuts")
 			(uuid "ea8b7df6-5f83-48f6-8ee9-ba33cedb1748")

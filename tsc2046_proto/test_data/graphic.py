@@ -14,24 +14,24 @@ def read_coordinates(file_path):
 
 # Function to create the grid and mark the coordinates
 def create_grid(coordinates):
-    # Create a blank white image with dimensions 2047x2047
-    img = Image.new('RGB', (2048, 2048), color='white')  # 2048 because of 0-indexing
+    # Create a blank white image with dimensions 4095x4095
+    img = Image.new('RGB', (4096, 4096), color='white')  # 2048 because of 0-indexing
     
     # Mark the specified coordinates as black
     for x, y in coordinates:
-        img.putpixel((x, (2047-y)), (0, 0, 0))  # Set the pixel to black
+        img.putpixel((x, (4095-y)), (0, 0, 0))  # Set the pixel to black
 
         # Set the surrounding pixels too
         pen_width = 2;
         for i in range(-pen_width, pen_width):
             for j in range (-pen_width, pen_width):
-                if 0 <= x+i <= 2047 and 0 <= (2047-y)+j <= 2047:
-                    img.putpixel((x+i, (2047-y)+j), (0, 0, 0))  # Set the pixel to black
+                if 0 <= x+i <= 4095 and 0 <= (4095-y)+j <= 4095:
+                    img.putpixel((x+i, (4095-y)+j), (0, 0, 0))  # Set the pixel to black
 
     return img
 
 # Path to your input file
-file_path = 'test_data_03-23/full_screen_test_1.csv'
+file_path = 'withpcb.txt'
 
 # Read the coordinates from the file
 coordinates = read_coordinates(file_path)

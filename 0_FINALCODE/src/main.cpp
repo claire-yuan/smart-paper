@@ -101,14 +101,14 @@ void setup() {
   delay(500);
 
   Serial.print("e-Paper Display\r\n ");
-  epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  // epd.Displaypart(IMAGE_DATA,0, 0,400,240);
   
   Serial.print("Displayed\r\n ");
 
-  delay(1000);
+  delay(2000);
 
-  Serial.print("e-Paper Clear\r\n ");
-  epd.Clear();
+  // Serial.print("e-Paper Clear\r\n ");
+  // epd.Clear();
   
   circ.DrawFilledCircle(radius+1, radius+1, radius, 0);
   paint.Clear(1);
@@ -240,7 +240,7 @@ void setup() {
  
   
   // ------------------- BLE INIT ----------------------------
-  /* Serial.println("BLE Init");
+  Serial.println("BLE Init");
   
   BLEDevice::init("ESP32C3-BLE");
   BLEServer *pServer = BLEDevice::createServer();
@@ -260,7 +260,7 @@ void setup() {
   // pCharacteristic->setValue("Hello from the ESP32C3"); // send message from ESP32 to laptop
   Serial.println("BLE Server started, waiting for client...");
 
-  */
+  
   // END
   Serial.print("End of setup function\r\n ");
 }
@@ -320,15 +320,15 @@ if(calibrate == false){
 
 
   // BLE
-  if (chars_received == 3090) {
+  if (chars_received == 12000) {
     chars_received = 0;
     Serial.println("All chars received: "); 
 
-    for (int i = 0; i < 3090; i++) {
+    for (int i = 0; i < 12000; i++) {
       Serial.printf("%02X ", IMAGE_DATA[i]);
     }
 
     // Call function to update screen
-    epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+    epd.Displaypart(IMAGE_DATA,0, 0,400,240);
   }
 }
