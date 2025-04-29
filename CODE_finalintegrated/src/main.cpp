@@ -78,7 +78,8 @@ void setup() {
   delay(500);
 
   Serial.print("e-Paper Display\r\n ");
-  epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  // epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  epd.Displaypart(IMAGE_DATA,0, 0,800,480);
   
   Serial.print("Displayed\r\n ");
 
@@ -219,15 +220,15 @@ void loop() {
 
 
   // BLE
-  if (chars_received == 3090) {
+  if (chars_received == 48000) {
     chars_received = 0;
     Serial.println("All chars received: "); 
 
-    for (int i = 0; i < 3090; i++) {
+    for (int i = 0; i < 48000; i++) {
       Serial.printf("%02X ", IMAGE_DATA[i]);
     }
 
     // Call function to update screen
-    epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+    epd.Displaypart(IMAGE_DATA,0, 0,800,480);
   }
 }
