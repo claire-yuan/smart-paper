@@ -1,23 +1,26 @@
 % Measured touch coordinates
-pts_touch = [1421, 1611 %BL
-             1659, 1608; %TL
-             1987, 11; %TR
-             1390, 1886]; %BR
+pts_touch = [1198, 1874 %BL
+             2254, 1561; %TL
+             2312, 2385; %TR
+             1087, 2606]; %BR
 
   % pts_touch = [935, 605; %TL
   %            336, 1262 ]; %BR
 
 %Target screen coordinates
-pts_screen = [ 10, 10;
-              790, 10;
-              790, 470;
-              10, 470 ];
+pts_screen = [ 790, 10;     %TL
+              790, 240;     %TM
+              790, 470;     %TR
+              400, 10;      %ML
+              400, 240;
+              400, 470;
+              790, 10;];
 
 % pts_screen = [ 790, 10;
 %                10, 470 ];
 
 % Solve for homography
-tform = fitgeotform2d(pts_touch, pts_screen, 'projective');
+tform = fitgeotform2d(pts_touch, pts_screen, 'lwm');
 H = tform.A;
 
 % Display the homography matrix
