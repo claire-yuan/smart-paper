@@ -69,7 +69,7 @@ void setup() {
   delay(500);
 
   Serial.print("e-Paper Display\r\n ");
-  epd.Displaypart(IMAGE_DATA,250, 200,240,103);
+  epd.Displaypart(IMAGE_DATA,0, 0,400,240);
   
   Serial.print("Displayed\r\n ");
 
