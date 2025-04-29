@@ -1,20 +1,29 @@
+clc;clear all; 
 % Measured touch coordinates
-pts_touch = [1421, 1611 %BL
-             1659, 1608; %TL
-             1987, 2055; %TR
-             1371, 1870]; %BR
+pts_touch = [ 2296,1508;
+ 2271,1863;
+ 2336,2294;
+ 1829,1719;
+ 1819,1983;
+ 1850,2307;
+ 1246,1861;
+ 1226,2122;
+ 1121,2412];
 
-  % pts_touch = [935, 605; %TL
-  %            336, 1262 ]; %BR
+
 
 %Target screen coordinates
-pts_screen = [ 10, 10;
-              790, 10;
-              790, 470;
-              10, 470 ];
+pts_screen = [750, 50;     %TL
+              750, 240;     %TM
+              750, 430;     %TR
+              400, 50;      %ML
+              400, 240;     %MM
+              400, 430;     %MR
+              50, 50;       %BL
+              50, 240;      %BM
+              50, 430];     %BR
 
-% pts_screen = [ 790, 10;
-%                10, 470 ];
+
 
 % Solve for homography
 tform = fitgeotform2d(pts_touch, pts_screen, 'projective');
