@@ -3450,6 +3450,17 @@
 		)
 		(uuid fa3d4106-9b2a-47c8-8ff5-10b0026d48b0)
 	)
+	(text "To Disable the temp sense function, \nuse a fixed 10k resistor between the \nTS (terminal 1) and Vss"
+		(exclude_from_sim no)
+		(at 79.756 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28954cfb-e75a-47d9-beae-00ba7d262b9a")
+	)
 	(text "Ron ≈ 80 mOhm"
 		(exclude_from_sim no)
 		(at 64.77 117.602 0)
@@ -3564,6 +3575,16 @@
 			)
 		)
 		(uuid "f06dab69-a34f-42da-8b7e-ae86f982422e")
+	)
+	(text "IOUT = KISET / RISET\nIOUT = 540 / 5.36k = 0.1A\n"
+		(exclude_from_sim no)
+		(at 48.006 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7c2f8f3-e00a-4583-9a23-ab53dcbb1f14")
 	)
 	(junction
 		(at 86.36 73.66)
